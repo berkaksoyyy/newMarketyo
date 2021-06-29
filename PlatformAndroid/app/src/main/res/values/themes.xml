@@ -1,0 +1,139 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="md_corner_radius">16dp</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_bg</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="DatePickerSpinner">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/backgroundColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="AppTheme.WhiteNoActionBarOnBoarding" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/backgroundColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarOnBoarding" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="GlideSliderBackgroundStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/bg_gradient_top_round_white_gradient</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="MineCustomTabText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="MyTitleStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:fontFamily">@font/quicksandm</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="Theme.SalesIQ.Base" parent="Theme.SalesIQ.Light.DarkActionBar">
+        <item name="siq_toolbar_backgroundcolor">@color/green</item>
+        <item name="siq_forms_toolbar_backgroundcolor">@color/green</item>
+        <item name="siq_toolbar_iconcolor">@color/white</item>
+        <item name="siq_toolbar_title_textcolor">@color/white</item>
+        <item name="siq_statusbar_color">@color/green</item>
+        <item name="siq_forms_submitbutton_textcolor">@color/white</item>
+        <item name="siq_forms_submitbutton_backgroundcolor">@color/green</item>
+        <item name="siq_forms_inputfield_title_textcolor">@color/txt_grey</item>
+        <item name="siq_forms_inputfield_textcolor">#383838</item>
+        <item name="siq_forms_outlineboxcolor">@color/txt_grey</item>
+        <item name="siq_emptyview_backgroundcolor">@color/white</item>
+        <item name="siq_emptyview_textcolor">#383838</item>
+        <item name="siq_emptyview_button_iconcolor">@color/white</item>
+        <item name="siq_emptyview_button_textcolor">@color/white</item>
+        <item name="siq_emptyview_button_backgroundcolor">@color/green</item>
+        <item name="siq_handoffbanner_backgroundcolor">@color/siq_infobanner_backgroundcolor_darkactionbar</item>
+        <item name="siq_handoffbanner_textcolor">?android:attr/textColorSecondary</item>
+        <item name="siq_handoffbanner_button_textcolor">@color/green</item>
+        <item name="siq_tabbar_backgroundcolor">@color/white</item>
+        <item name="siq_tabbar_activetab_textcolor">@color/green</item>
+        <item name="siq_tabbar_inactivetab_textcolor">@color/siq_conversation_tab_textcolor_darkactionbar</item>
+        <item name="siq_tabbar_activetab_iconcolor">@color/green</item>
+        <item name="siq_tabbar_inactivetab_iconcolor">@color/siq_conversation_tab_icon_color_darkactionbar</item>
+        <item name="siq_conversation_unreadbadge_textcolor">@color/white</item>
+        <item name="siq_conversation_unreadbadge_backgroundcolor">@color/green</item>
+        <item name="siq_chat_recordbutton_backgroundcolor">@color/green</item>
+        <item name="siq_chat_message_backgroundcolor_visitor">@color/green</item>
+        <item name="siq_chat_audio_seekbar_thumbcolor_operator">@color/green</item>
+        <item name="siq_chat_audio_actionicon_backgroundcolor_operator">@color/green</item>
+        <item name="siq_chat_audio_actioniconcolor_visitor">@color/green</item>
+        <item name="siq_chat_reopenbutton_backgroundcolor">@color/green</item>
+        <item name="siq_chat_reopenbutton_textcolor">@color/white</item>
+        <item name="siq_chat_feedback_submitbutton_backgroundcolor">@color/green</item>
+        <item name="siq_chat_feedback_submitbutton_textcolor">@color/white</item>
+        <item name="siq_chat_feedback_inputfield_bordercolor">@color/green</item>
+        <item name="siq_chat_card_suggestionview_strokecolor">@color/green</item>
+        <item name="siq_chat_card_suggestionview_textcolor">@color/green</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:fontFamily">@font/quicksandm</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

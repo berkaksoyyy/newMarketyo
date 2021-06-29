@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_radius">5dp</dimen>
+    <dimen name="default_elevation">5dp</dimen>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">24dp</dimen>
+    <!-- Height of the bottom navigation / system bar. -->
+    <dimen name="navigation_bar_height">48dp</dimen>
+
+    <dimen name="sticky_header">20dp</dimen>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>landing_cwl_text</key>
+        <value>Alışverişe Başla</value>
+    </entry>
+
+    <entry>
+        <key>enable_coupons</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>enable_support_messages</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>

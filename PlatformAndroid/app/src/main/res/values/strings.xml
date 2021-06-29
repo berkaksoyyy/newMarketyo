@@ -1,0 +1,630 @@
+<resources>
+    <string name="app_name">Marketyo</string>
+    <string name="zohoAppKey">NhzwyXSA4Mlt4nKco%2FePsniHg2X1zx84nODVQiTjkUGUmsICPJC9BlZToStXawQB</string>
+    <string name="zohoAccessKey">Kx7RIysGdsj0C6mXLBVFzvIZWRB4BydUEeP3mw99Ni4bE80Ik7hqbK9vQeMpjVd1WY3I3evXrb5oaoKj2zNz0R40qyxaaGSfbCt7X2RDcF0lgP0ae5kbnBvVflYrvzTKbPHEK4uZbYS4bA0if1BMhAmG66kesVWy</string>
+
+    <string name="ok">Okay</string>
+
+    <string name="dialog_need_internet_to_work">No Internet Connection!</string>
+    <string name="dialog_need_internet_to_work_message">Please check your internet connection and try again</string>
+
+    <string name="go_to_settings">Go To Settings</string>
+    <string name="try_again">Try Again</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="login_or_register">Login/Register</string>
+    <string name="dialog_need_to_login_title">You must login</string>
+    <string name="dialog_need_to_login_message">You must login in order to use all features of the application</string>
+
+    <string name="easy">Easy</string>
+    <string name="medium">Middle</string>
+    <string name="hard">Hard</string>
+
+    <string name="formatted_price_adet">1 Piece / %1$s %2$.2f</string>
+    <string name="formatted_price_kilo">1 Kg / %1$s %2$.2f</string>
+
+    <string name="formatted_price">%2$.2f %1$s</string>
+    <string name="formatted_price_no_floating" translatable="false">%1$.0f %2$s</string>
+    <string name="error">An error occured.</string>
+
+    <string name="error_message_phone">Enter a valid phone number</string>
+    <string name="error_message_name">Enter a valid name</string>
+    <string name="error_message_lastname">Enter a valid surname</string>
+    <string name="error_message_password">Wrong password</string>
+    <string name="error_message_password_short">Your password is too short</string>
+    <string name="error_message_password_empty">Your password cannot be empty</string>
+    <string name="error_confirm_password">Passwords does not match.</string>
+
+    <string name="login_successfully">Logged in</string>
+    <string name="credentials_error">Wrong username or password</string>
+
+    <string name="formatted_weight">%1$s Kg</string>
+    <string name="formatted_quantity">%1$s Piece</string>
+
+    <string name="formatted_order_date">%1$s</string>
+    <string name="formatted_order_id">Order ID: %1$s</string>
+
+    <string name="formatted_weight_1line">%1$s Kg</string>
+    <string name="formatted_quantity_1line">%1$s Piece</string>
+
+    <string name="validating_secure_code">Enter the validation code sent to your phone by your bank</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="send">Send</string>
+
+    <string name="enter_sms_code">Enter the code from the SMS</string>
+    <string name="validate">Validate</string>
+    <string name="resend">Resend</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="enter_again">Enter again</string>
+
+    <string name="done">Done</string>
+    <string name="message_was_sent">New message sent</string>
+    <string name="resend_sms">Tap resend in order to receive the message again</string>
+
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+
+    <string name="accept_master_pass">I agree the MasterPass user terms</string>
+    <string name="done_success">Operation done successfully</string>
+    <string name="dialog_max_amount_text">Maximum buying amount for the product you selected: %1$.2f.</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="change">Change</string>
+    <string name="change_password">Change password</string>
+    <string name="hint_changepassword_current">Current password</string>
+    <string name="hint_changepassword_new_password">New password</string>
+    <string name="hint_changepassword_new_password_again">Enter new password again</string>
+    <string name="new_password_cannot_be_same_old_one">Your new password cannot be same with your current password</string>
+    <string name="password_changed_successfully">Your password has been changed</string>
+    <string name="devam_et">Continue</string>
+    <string name="update">Update</string>
+    <string name="related_products">You may also find interesting</string>
+    <string name="categories">Categories</string>
+
+
+    <string name="acheived_free_delivery">Free delivery!</string>
+    <string name="formatted_needed_to_acheive_order_min_limit">You need to add %1$s worth of items in order to place an order</string>
+    <string name="formatted_needed_to_acheive_free_deliver">You need to add %1$s %2$s worth of items in order to achieve free delivery</string>
+    <string name="no_address_found">You do not have any addresses</string>
+    <string name="no_address_desc">You can create a new address by tapping the "Create New Address" button below</string>
+    <string name="no_order_found">You do not have any placed order</string>
+    <string name="no_order_desc">You can see your placed orders here after you completed your first order.</string>
+    <string name="register">Register</string>
+    <string name="forgot_my_password">Forgot my password</string>
+    <string name="phone_code">SMS Validation Code will be sent to this number :\n%1$s</string>
+    <string name="phone_verification">SMS Validation</string>
+    <string name="send_code">Send code</string>
+    <string name="update_phone">Update number</string>
+    <string name="invalid_phone">This phone number is already using by another user.</string>
+    <string name="enter_phone_number">Enter your number.</string>
+    <string name="fields_cannot_be_empty">This field cannot be empty</string>
+    <string name="please_enter_code">Marketyo verification code sent to mobile phone</string>
+    <string name="please_enter_code2">Please write the code in the field below</string>
+    <string name="please_resend_code">Did not you get the message?</string>
+    <string name="please_resend_code2"><u>Send Again</u></string>
+    <string name="time_remaining">Time Remaining</string>
+
+    <string name="address_info">Address info</string>
+    <string name="address_info2">Please write the address information you want to order</string>
+    <string name="or">or</string>
+
+    <string name="phone_verified">Your phone number is validated!</string>
+    <string name="invalid_code">This code is expired or wrong.</string>
+    <string name="remaining_time">"Remaining time: "</string>
+
+    <string name="title_delete_masterpass_card">Remove card</string>
+    <string name="message_delete_masterpass_card">Are you sure you want to remove your card ?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="hint_phone">Your phone number</string>
+    <string name="hint_password">Your password</string>
+    <string name="hint_password_confirm">Enter your password again</string>
+    <string name="phone_cod">+90</string>
+    <string name="login">Login</string>
+    <string name="register_hint">You can create your account\n by filling the fields below.</string>
+    <string name="policy_first">Terms of use</string>
+    <string name="policy_second">Terms of privacy</string>
+    <string name="policy_all">I read %1$s and %2$s, and I agree.</string>
+    <string name="should_accept_user_policy">Please read and agree the terms.</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="discounted_products">Discounted products</string>
+    <string name="address_deleted">Address deleted</string>
+
+    <string name="dialog_remove_product_message">Do you want to remove this product from your cart?</string>
+    <string name="dialog_remove_proudct_title">Remove product</string>
+    <string name="product_error">There is a problem with the product.</string>
+    <string name="continue_without_register">Continue without registering</string>
+    <string name="onboarding_msg_left">Marketyo brings grovery-shopping to your mobile! Most popular markets and grocery stores are accessible via a single application. Time saved from in-store shopping is yours to use!</string>
+    <string name="onboarding_msg_right">Log in if you already registered or take 2 minutes to register now. Choose a store based on your location, select products to order and receive your order at your door</string>
+    <string name="forgot_password">Forgot My Password</string>
+    <string name="login_register">DON\'T YOU HAVE AN ACCOUNT?REGISTER NOW!</string>
+    <string name="select_shop">SELECT MARKET</string>
+    <string name="selectshop_timeslot_msg">VIEW DELIVERY PERIODS</string>
+    <string name="select_this_shop">SELECT SHOP</string>
+    <string name="select_region">SELECT CITY</string>
+    <string name="select_region_msg">Select the address to place your order to</string>
+    <string name="select_city">Select City</string>
+    <string name="select_location">Find Location</string>
+    <string name="select_county">Select County</string>
+    <string name="select_neighborhood">Select Neighborhood</string>
+    <string name="item_select_city">SELECT CITY</string>
+    <string name="item_select_county">SELECT COUNTY</string>
+    <string name="item_select_neighborhood">SELECT NEIGHBORHOOD</string>
+    <string name="products_of_the_week">Best Sellers</string>
+    <string name="shopping">Shopping</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="search_product">Search Products</string>
+    <string name="campaigns">Campaigns</string>
+    <string name="menu_campaigns">Oppurtunities</string>
+    <string name="search_product_not_found">Product you search is not found.</string>
+    <string name="newest_campaigns">Recent Campaigns</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_coupons">My Coupons</string>
+    <string name="my_oppurtunity">My Oppurtunies</string>
+    <string name="my_addresses">My Addresses</string>
+    <string name="change_my_personal_info">Personal Information</string>
+    <string name="change_password_myaccount">Change Password</string>
+    <string name="my_cart">My cart</string>
+    <string name="products">Products</string>
+    <string name="gains_from_coupons">Coupon discounts</string>
+    <string name="total_final_discount">Total discounts</string>
+    <string name="gains_from_campaigns">Campaign discounts</string>
+    <string name="service_fee">Service fee</string>
+    <string name="service_fee_2">Service fee</string>
+    <string name="bag_fee">Bag Price</string>
+    <string name="total_product_amount">Product total</string>
+    <string name="add_product_note">Add product note</string>
+    <string name="address_and_delivery"><![CDATA[Address and Delivery]]></string>
+    <string name="total">Total Price: </string>
+    <string name="delivery_options">Delivery Time</string>
+    <string name="delivery_options1">Delivery Options</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="invoice_address">Invoice Address</string>
+    <string name="payment_options">Payment Information</string>
+    <string name="select_delivery_date_and_time">When shall we deliver?</string>
+    <string name="select_delivery_date_and_time_info">The time intervals suitable for its location are given below. You can continue the process by selecting the time period you want.</string>
+    <string name="add_note">Add Note</string>
+    <string name="add_note_2">Add Note</string>
+    <string name="tap_to_write">TAP TO WRITE</string>
+    <string name="note_hint">Notunuz varsa, lütfen yazınız</string>
+    <string name="order_confirmed">Order Confirmed</string>
+    <string name="total_invoice_amount">Total Invoice Price</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="delivery_time">Delivery Time</string>
+    <string name="delivery_time_2">Choose Delivery Time and Day</string>
+    <string name="go_back_to_main">Go Back to Main Page</string>
+    <string name="save">Save</string>
+    <string name="add_credit_card">Add credit card</string>
+    <string name="card_title">Card alias</string>
+    <string name="card_no">Card No</string>
+    <string name="select_mp_card">Select the credit card that you want to pay with.</string>
+    <string name="add_new_mp_card">Tap to add new card.</string>
+    <string name="link_mp_cards">Tap to use your cards saved at Masterpass</string>
+    <string name="delete">Delete</string>
+    <string name="welcome">Welcome</string>
+    <string name="select">Select</string>
+    <string name="login_msg">You can login with your registered phone number and password</string>
+    <string name="support">Support</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate_app">Rate Us</string>
+    <string name="help">Help</string>
+    <string name="customer_support">Live Help</string>
+    <string name="company_info">Company Information</string>
+    <string name="title">Title</string>
+    <string name="ssn">Commercial Registration Number</string>
+    <string name="head_general">Headquarters</string>
+    <string name="phone">Phone</string>
+    <string name="mersis">Mersis Number</string>
+    <string name="email_address">Registered E-mail Address</string>
+    <string name="contactus_call_center_title"> Call Center ( Call: %1$s) </string>
+    <string name="select_order">Select the order that you want to report</string>
+    <string name="order_no">Order No:</string>
+    <string name="order_date">Order Date:</string>
+    <string name="total_price">Total Price</string>
+    <string name="no_order_history">You have not placed any order yet.</string>
+    <string name="updated_successfully">Your message sent successfully</string>
+    <string name="add_msg">Add your message</string>
+    <string name="choose_support_message_type">Select support message type</string>
+    <string name="send_mail">Leave us a message</string>
+    <string name="communication">CONTACT</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="kvkk">PROTECTION OF PERSONAL DATA</string>
+    <string name="contract">MEMBERSHIP AGREEMENT</string>
+    <string name="kvkk_msg">LAW ON PROTECTION OF PERSONAL DATA</string>
+    <string name="remotely_sale_licenses">Distance Sales Agreement</string>
+    <string name="version">Version</string>
+
+    <string name="personalDataUsage">Personal Data Retention, Lighting and Destruction Policy</string>
+    <string name="clarification_policy">Clarification Policy</string>
+    <string name="consentText">Explicit Consent Text</string>
+    <string name="personal_consent_all">I agree to %1$s and %2$s.</string>
+
+    <string name="complete_checkout">
+        I read and agreed %1$s and %2$s policies.
+    </string>
+
+    <string name="personal_information">Preliminary Information Form</string>
+    <string name="no_product_desc">There is not any products related to this category.</string>
+    <string name="search">Search</string>
+    <string name="menu_search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="menu_cart">Cart</string>
+    <string name="my_account">Profile</string>
+    <string name="menu_my_account">Profile</string>
+    <string name="menu">Menu</string>
+    <string name="out_menu">Shops</string>
+    <string name="my_products">My Products</string>
+    <string name="authentication">SMS Check</string>
+    <string name="add_new_address">Add New Address +</string>
+    <string name="delivery_address_empty">Delivery address is empty</string>
+    <string name="delivery_address_empty_exp">You can add delivery address by tapping the "Add New Address" button</string>
+    <string name="same_address_txt">Set Invoice address same as Delivery address</string>
+    <string name="address">Address</string>
+    <string name="come_and_take_exp">You must select address to see the closest %1$s delivery points</string>
+    <string name="delivery_hours">%1$s HOURS</string>
+    <string name="warning">Warning</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to logout ?</string>
+    <string name="delete_address">Are you sure you want to delete address ?</string>
+    <string name="delete_address_titel">Delete Address</string>
+    <string name="add_address">Add Address</string>
+    <string name="personal">Individual</string>
+    <string name="company">Enterprise</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="delivery_day">Delivery hour</string>
+    <string name="get_direction">Get Directions</string>
+    <string name="payment">payment</string>
+    <string name="delivery_type">Delivery Type</string>
+    <string name="order_note">Order Note</string>
+    <string name="product_total">Product Total</string>
+    <string name="campaign_discount">Campaign Discount</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="order_details">Order details</string>
+    <string name="enter_birthdate">Enter your birth date</string>
+    <string name="products_you_might_want">You may find interesting</string>
+    <string name="you_must_be_older_than">You must be older than %1$d to be able to create an account</string>
+
+    <string name="error_message_email">Wrong E-mail</string>
+    <string name="enter_email">Enter Your E-mail Address</string>
+    <string name="personal_info_exp">Please update your information in the relevant fields</string>
+    <string name="back">Back</string>
+    <string name="title_activity_barcode">Barcode Reader</string>
+
+    <string name="continue_msg">Continue</string>
+    <string name="please_enter_region_info">Please complete selecting your region info.</string>
+    <string name="select_county_warn">Please select county</string>
+    <string name="select_city_warn">Please select city</string>
+    <string name="teslimat_saatleri">delivery times</string>
+    <string name="direction">DIRECTION</string>
+    <string name="direction_msg">: You are directing to maps to get a direction.</string>
+    <string name="cancel_this_order">Cancel Order</string>
+    <string name="repeat_this_order">Repeat Order</string>
+    <string name="cancel_order_msg">Are you sure you want to cancel this order ?</string>
+    <string name="masterpass_msg">There are cards registered at Masterpass with your current phone number. Do you want to use your registered cards at Marketyo application ?</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="cvv">CVV/CVC2</string>
+    <string name="card_holder">Cardholder\'s Name Surname</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_threed">Your Payments are Safe With 3D Secure</string>
+    <string name="payment_fail">Payment Failed</string>
+    <string name="spotlight_select_region">You must choose your neighborhood so that we can provide you with the best service</string>
+    <string name="spotlight_select_shop1">Markets are listed for the selected region</string>
+    <string name="spotlight_select_shop2">You can see other information of the market by swiping right.</string>
+    <string name="spotlight_select_shop3">You can view the delivery periods by clicking this button</string>
+    <string name="spotlight_main1">You can view the selected market on this screen</string>
+    <string name="spotlight_main2">You can switch to another market by clicking the “CHANGE” button</string>
+    <string name="spotlight_main3">Click here to see the delivery times</string>
+    <string name="spotlight_main4">Click here to view the products in your cart</string>
+    <string name="spotlight_cart1">You can track your free delivery status here</string>
+    <string name="spotlight_cart2">You can add notes to the products using the note button</string>
+    <string name="spotlight_cart3">You can remove the desired product from the basket by using the delete button</string>
+    <string name="spotlight_cart4">You can see the cart details by pulling up</string>
+    <string name="spotlight_cart5">Do not forget to choose a coupon or campaign from the My Deals section</string>
+    <string name="spotlight_address1">Please select the detailed information of the region you want delivery in order to provide you the best service</string>
+    <string name="spotlight_order1">You can see the reference number of your order here</string>
+    <string name="spotlight_order2">You can view order detail information here</string>
+    <string name="congrats">Congratulations</string>
+    <string name="dialog_force_update_message">There is a new update on the Play Store. Please update to get our latest features.</string>
+    <string name="no_product">There are no products present in your cart</string>
+    <string name="no_shop_exp">You can select another neighborhood by tapping the change button above...</string>
+    <string name="no_shop_ttl">Currently there is no market serving the region you are in</string>
+    <string name="address_name">Address Name</string>
+    <string name="name_surname">Name-Surname</string>
+    <string name="identity_no">Identity Number</string>
+    <string name="extra_info">Extra Information</string>
+    <string name="company_name">Company Name</string>
+    <string name="tax_id_no">Tax Identification Number</string>
+    <string name="tax_admin">Tax Administration</string>
+    <string name="timeslot_bs_msg">You can see the appropriate timeslots for the market you choose.</string>
+    <string name="timeslot_bs_msg_change_title">Change Time Slot</string>
+    <string name="timeslot_bs_msg_change_desc">The time intervals suitable for its location are given below.</string>
+    <string name="delivery_points">Delivery Points</string>
+    <string name="fill_necessary">Please fill all necessary fields</string>
+    <string name="enter_id_no">Please enter a valid identity number</string>
+    <string name="logging_out">EXIT FROM MARKETYO</string>
+    <string name="logging_out_msg">Do you want to close Marketyo ?</string>
+    <string name="forgot_password_msg">You can update your password by verifying your mobile number.</string>
+    <string name="new_password">Change Password</string>
+    <string name="delivery_zone">Delivery Region</string>
+    <string name="policy_terms_of_use">Policy Terms Of Use</string>
+    <string name="privacy_agreement">Privacy Agreement</string>
+    <string name="full">FULL</string>
+    <string name="delivery_time_order">Delivery Time: </string>
+    <string name="payment_type">Payment Type</string>
+    <string name="please_select_timeslot">Please select a timeslot</string>
+    <string name="please_select_address">Please select an address</string>
+    <string name="please_select_delivery">Please select a delivery option</string>
+    <string name="agree_policies">Please read and agree policies to complete your order</string>
+    <string name="invalid_card">Invalid Card</string>
+    <string name="cannot_pay_with_debit">You cannot make payment with debit cards</string>
+    <string name="confirm_order">Confirm order</string>
+    <string name="shop_not_found">Shop Not Found</string>
+    <string name="shop_not_found_msg">The store you are in does not serve the region you have chosen.</string>
+    <string name="clear">clear</string>
+    <string name="ordering">ordering</string>
+    <string name="brand">brand</string>
+    <string name="other">other</string>
+    <string name="edit">Edit</string>
+
+    <string name="options">OPTIONS</string>
+    <string name="cart_campaigns">Cart Campaigns</string>
+    <string name="catch_opportunity">congratulations, you have caught the opportunity!</string>
+    <string name="details">details</string>
+    <string name="campaign_not_applied">campaign is not applied</string>
+    <string name="catch_camp">catch the opportunity</string>
+
+    <string name="please_wait">Please Wait...</string>
+    <string name="min_order_msg">Your cart total is below minimum limit.</string>
+
+    <string name="start_shopping">Start Shopping</string>
+    <string name="please_enter_coupon_code">Please enter a coupon code</string>
+    <string name="coupon_exp">You can apply your coupons at Cart page.</string>
+    <string name="add">Add</string>
+    <string name="enter_coupon_code">Enter Coupon Code</string>
+    <string name="other_brand">Other</string>
+    <string name="add_new_adress_notplus">Add new address</string>
+
+    <string name="info">Info</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="min_cart_total">Minimum Cart Total</string>
+    <string name="free_delivery">Free Delivery</string>
+    <string name="update_personal_info">Update Personal Information</string>
+    <string name="same_password_msg">Passwords does not match</string>
+    <string name="cannot_find_desired_product">Could not find the product you searched ?</string>
+    <string name="request_product">Tell us which product you want to see in this category</string>
+    <string name="request_thanks">Thank you. Your suggestions are important for us.</string>
+    <string name="specify_product">Please specify a product</string>
+    <string name="request_product_ttl">Suggest Product</string>
+    <string name="request_msg_top">You can help us by writing your product suggestion below.</string>
+    <string name="request_msg_bot">Please specify product name with brand.</string>
+    <string name="call_for_alternative_ttl">Please choose</string>
+    <string name="call_for_alternative_msg">If the product is not available, you will be called and informed by the market for an alternative product.</string>
+    <string name="select_alternative_ttl">Select alternative product for me.</string>
+    <string name="select_alternative_msg">If the product is not available, an alternative product is added to your order by the market.</string>
+    <string name="dont_want_alternative_ttl">I don\'t want alternative product.</string>
+    <string name="dont_want_alternative_msg">If the product is not available, no alternative products are added. The product amount is deducted from the shopping amount.</string>
+    <string name="select_alternative">Alternative product selection</string>
+    <string name="search_coupons">Browse coupons</string>
+    <string name="choose_oppurtunity">Choose Oppurtunity</string>
+
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="alternative">Alternative Product</string>
+    <string name="shop">Shop:</string>
+    <string name="add_coupon_err">You have to select a shop in order to add coupons. Please try again after shop selection.</string>
+    <string name="feedback_msg">A return to your e-mail address registered in Marketyo application will be provided as soon as possible.</string>
+    <string name="suggest_region">suggest region</string>
+    <string name="suggest_region_exp">You can help us with suggesting the region you want to be served.</string>
+    <string name="suggest_region_btn">I want to suggest region</string>
+    <string name="sec">sec</string>
+    <string name="maintenance_msg">We are renewing our stocks for you, would you try again in 15 minutes?</string>
+    <string name="maintenance_msg_sec">Infrastructure work is currently taking place in our system. Would you try again in 15 minutes?</string>
+    <string name="maintenance_ttl">Our service is under maintain</string>
+    <string name="close">Close</string>
+    <string name="phone_not_valid">Please enter a valid phone number</string>
+    <string name="enter_rating">Please enter a rating</string>
+    <string name="thanks">Thank You</string>
+    <string name="your_review_has_been_taken">Your review has been taken</string>
+    <string name="order_rate">Rate Order</string>
+    <string name="order_rating">Order rating</string>
+
+    <string name="kullanim_kosulları_tum">I have read and agreed %1$s and %2$s</string>
+    <string name="kullanim_kosullari">Terms of Use</string>
+    <string name="gizlilik_kosullari">Privacy Policy</string>
+    <string name="kisiselVeriler">Personal Data Protection Form</string>
+    <string name="kisiselVerilerTum">I have read and agreed %1$s</string>
+
+    <string name="etk_text">I approve to contact me for campaign, promotion, advertisement and information purposes, I have my consent.</string>
+    <string name="kvkk_text">Personal Data Protection Form</string>
+    <string name="contract_dialog_txt">In accordance with the changed regulation, we renewed our contracts and our communication permission policy. You must confirm according to your preference.</string>
+
+    <string name="usage_and_privacy">GENERAL TERMS OF USE</string>
+    <string name="privacy">CONFIDENTIALITY AGREEMENT</string>
+    <string name="notif_prefs_txt">Communication preferences</string>
+
+    <string name="ignore_multiple_spesific_symbol">Multiple "@" symbols cannot be entered.</string>
+    <string name="ignore_first_spesific_at_symbol">First character cannot be "@" symbol</string>
+    <string name="ignore_first_spesific_dot_symbol">The first character is "." cannot have a symbol</string>
+    <string name="ignore_consecutive_dot_symbol">Two "." symbol cannot come together</string>
+    <string name="ignore_dot_and_at_symbol">".@" symbols cannot come together</string>
+    <string name="ignore_at_and_dot_symbol">"@." symbols cannot come together</string>
+    <string name="ignore_five_char_less">Your email must contain at least 5 letters.</string>
+    <string name="invalid_email">Your email is invalid</string>
+    <string name="ignore_email_invalid_symbol">You cannot use any characters other than English characters and special characters "@,., _, -" in the email field.</string>
+
+    <string name="ignore_first_spesific_symbol">First character cannot be "Ğ or ğ" symbol</string>
+    <string name="ignore_first_empty_symbol">First character cannot be empty space</string>
+    <string name="ignore_consecutive_symbol">More than 2 identical characters cannot be used</string>
+    <string name="ignore_consecutive_vowel_symbol">More than 2 vowels cannot be used side by side.</string>
+    <string name="ignore_consecutive_consonant_symbol">More than 3 consonants cannot be used side by side.</string>
+    <string name="ignore_name_invalid_symbol">No characters other than English characters and Turkish characters can be used in the name or surname field.</string>
+
+    <string name="ignore_phone_number_without_start_five">Phone number must start with 5</string>
+
+    <string name="name_count">Name field must contain at least 2 characters.</string>
+    <string name="surname_count">Surname field must contain at least 2 characters.</string>
+
+    <string name="clarification_text_info">I want to get information about the content of the %1$s</string>
+    <string name="membership_agreement_info">I have read the %1$s, I accept</string>
+    <string name="consent_form_info">I permit my personal data I have provided within the scope of the membership relationship to be processed in line with profiling / marketing activities within the scope of the %1$s and transferred to servers abroad for other purposes specified in the relevant text.</string>
+    <string name="campaign_text_info">I allow commercial electronic messages to be sent to me for the purpose of promoting and marketing campaigns, promotions, advantages, new products / services and my data to be processed within the scope of the %1$s for this purpose.</string>
+
+    <string name="membership_agreement">Membership agreement</string>
+    <string name="consent_form">Clarification Text</string>
+    <string name="campaign_text">Advertisement, Promotion, Promotion, Campaign Information Text</string>
+
+    <string name="kvkk_clarification_text">KVKK Clarification Text</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="consent_text">Explicit Consent Form</string>
+    <string name="membership_agreement_text">Membership Agreement</string>
+
+
+    <string name="cancel_order_btn">Cancel Order</string>
+    <string name="want_to_add_product">I Want To Add Product</string>
+    <string name="change_payment">I Will Change Payment Type</string>
+    <string name="change_timeslot">I Will Change Timeslot</string>
+    <string name="couldnt_use_coupon">I Could Not Use Campaign/Coupon</string>
+    <string name="wont_be_at_address">I Wont Be At The Address</string>
+    <string name="other_reason">Other</string>
+
+    <string name="next_reason">Next</string>
+    <string name="cancel_order_reason">Order Cancelation</string>
+    <string name="order_cancelation">Order Cancelation</string>
+    <string name="order_cancelation_txt">Why Are You Canceling Your Order?</string>
+    <string name="add_note_cr">Add Note</string>
+
+    <string name="order_was_canceled">Your Order Has Canceled</string>
+
+    <string name="ignore_last_char_as_dot">Last character of email address cannot be "."</string>
+    <string name="livechat.messages.offline">Değerli müşterimiz çalışma saatlerimiz 09:00 ile 20:00 arasındadır. Şu an mesai saatleri dışında olduğumuzdan size hizmet veremiyoruz</string>
+
+    <!-- New Design Text -->
+    <string name="market_know">Known Market</string>
+    <string name="market_know_desc">We have gathered the markets you know in your neighborhood in a single application for you.</string>
+    <string name="market_door">At your door with Marketyo</string>
+    <string name="market_door_desc">Moreover, campaigns with the power of more than 100 stores in Turkey.</string>
+
+    <string name="dont_have_account">Do not you have an account?</string>
+    <string name="register_now"><u>Register Now</u></string>
+    <string name="without_sign_in">Sign in without a member</string>
+
+    <string name="your_address">Your Address: </string>
+    <string name="choosed_market">Choosing Market: </string>
+    <string name="view_delivery_time">View Delivery Times</string>
+    <string name="basket_sum">Basket Total</string>
+    <string name="special4you">Special for you</string>
+    <string name="saved_address">My Registered Addresses</string>
+    <string name="select_address">Choose Address</string>
+    <string name="delete_address_info">The Address Below Will Be Deleted</string>
+    <string name="give_up">Give Up</string>
+    <string name="address_explain">Write the address</string>
+    <string name="eposta">E-mail</string>
+    <string name="sms">SMS</string>
+    <string name="calling_phone">Phone call</string>
+
+    <string name="sum_product_total">Order total amount</string>
+    <string name="total_gains">Total Gains</string>
+    <string name="product_discount">Product discount</string>
+    <string name="end_of_cart_discount">End of Cart Discount</string>
+    <string name="delivery_discount">Delivery Discount</string>
+    <string name="go_cart">Go to Cart</string>
+    <string name="these_may_interest_you">These may interest you</string>
+    <string name="delivery_details">Delivery Details</string>
+    <string name="select_delivery_type_address">Select Delivery Type and Address</string>
+    <string name="complete_order">Complete Order</string>
+    <string name="choose_delivery_address">Choose Delivery Address</string>
+    <string name="select_address_info">Select the address you want your order to arrive</string>
+    <string name="choose_delivery_type_info">Delivery Type</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="order_created">Order Created</string>
+    <string name="received_products">Received Products</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="payment_type_2">Payment Type</string>
+    <string name="sub_total">SubTotal</string>
+    <string name="main_total">Order Total</string>
+    <string name="main_purchased_total">Order Total</string>
+    <string name="coupon_discount">Coupon Discount</string>
+    <string name="order_tracking">We prepare your order with care. We will be at your address as soon as possible.</string>
+    <string name="coupon_waiting">Coupon Waiting</string>
+    <string name="order_not_evaluated">You have an order that has not been evaluated</string>
+    <string name="rate_your_shopping_experience">Rate your shopping experience</string>
+    <string name="evaluate">Evaluate</string>
+    <string name="order_limit">Order Limit: </string>
+
+    <string name="opportunities">Opportunities</string>
+    <string name="add_new_address_camel_case">Add New Address</string>
+
+    <string name="announcements">Announcements</string>
+
+    <string name="you_might_like">You might like these</string>
+
+    <string name="search_product_or_brand">Type the product or brand you desire</string>
+    <string name="personal_info_title">Personal Information</string>
+
+    <string name="order_no_exp">Order Number</string>
+    <string name="date_and_time">Time and Date</string>
+
+    <string name="products_bought">Products Bought</string>
+    <string name="select_shop_title_info">Our closest markets to you</string>
+    <string name="cart_title">Cart Detail</string>
+    <string name="choose_payment_type_info">Choose How You Would Like to Pay Your Order</string>
+    <string name="most_searched_word">Most Searhed Words</string>
+    <string name="qr_code_info">Search With Barcode</string>
+
+    <string name="order_no_exp_w_colon">Order Number:</string>
+    <string name="today">Today</string>
+    <string name="week">Week</string>
+    <string name="month_1">Month</string>
+
+    <string name="spotlight_select_region_1">Please select the details of the region you want to deliver to so that we can provide you with the best service.</string>
+
+    <string name="spotlight_select_shop_1">Markets are listed for the selected region</string>
+    <string name="spotlight_select_shop_2">You can access the information of the market by clicking here.</string>
+    <string name="spotlight_select_shop_3">You can check the delivery times by using the button View delivery time.</string>
+
+    <string name="spotlight_main_fragment_1">You can change the market of your choice by clicking here.</string>
+
+    <string name="spotlight_cart_fragment_1">You can track your free delivery status here.</string>
+    <string name="spotlight_cart_fragment_2">Do not forget to select a coupon or campaign from the My Deals section.</string>
+    <string name="spotlight_cart_fragment_3">You can add notes to products by using the add note button.</string>
+    <string name="spotlight_cart_fragment_4">By sliding it to the left, you can remove the product you want from the basket</string>
+    <string name="spotlight_cart_fragment_5">You can see the basket details by pulling up.</string>
+
+    <string name="spotlight_order_details">You can see your order number here</string>
+
+    <string name="spotlight_oppurtunuity">You can take a look at all the deals here</string>
+    <string name="spotlight_oppurtunuity_2">You can search for products in all markets from here</string>
+
+    <string name="order_rating_high_msg">We would be very happy if you share your suggestions for a better experience.</string>
+    <string name="order_rating_low_msg">We are sorry for the negative experience you have had. We will be glad if you share your reason with us.</string>
+    <string name="order_rating_static_question">Rate your order experience</string>
+    <string name="your_opinion">Your Opinion</string>
+
+    <string name="rate_us_google_msg">Would you like to rate us on Google Play Store?</string>
+
+    <string name="select_region_now">Select Region Now</string>
+    <string name="see_all_shops_at_region">See All Shops At Your Region</string>
+    <string name="regions_contain_product">Shops with %1$s in your area</string>
+
+    <string name="product_price_mc">Price: </string>
+    <string name="you_didnt_rate">You have not evaluated your order!</string>
+    <string name="my_rate">Order evaluation</string>
+    <string name="your_order_exp">Your order experience</string>
+    <string name="no_product_at_region_mc">We are sorry, shops in this region does not have this product right now.</string>
+    <string name="no_promotion_at_region_mc">We are sorry, shops in this region does not have this promotion right now.</string>
+    <string name="campaign_email_msg">I can receive e-mail about the campaigns</string>
+    <string name="campaign_sms_msg">I can receive sms about the campaigns</string>
+    <string name="campaign_call_msg">I can receive phone call about the campaigns</string>
+
+    <string name="repeat_order_success">Successful</string>
+    <string name="repeat_order_go_cart">Go to Cart</string>
+    <string name="repeat_formatted_added_item">Products in stock have been added to your cart.</string>
+    <string name="repeat_order_change_location">Change Location</string>
+    <string name="repeat_formatted_change_location">This market does not provide service in the region you have selected. Do you want to change your region?</string>
+    <string name="repeat_formatted_change_shop">Do you want to repeat your order for %1$s market?</string>
+    <string name="repeat_order_same_shop_warning_desc">Do you want to repeat your order?</string>
+    <string name="clear_cart_message">All items in your cart will be removed. Are you sure you want to empty your cart?</string>
+
+</resources>

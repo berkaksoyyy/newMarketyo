@@ -1,0 +1,14 @@
+<resources>
+    <declare-styleable name="UEditText">
+        <attr name="hint" format="string" />
+        <attr name="leftDrawable" format="reference" />
+        <attr name="isPhoneET" format="boolean" />
+        <attr name="rightDrawable" format="reference"/>
+        <attr name="isET" format="boolean"/>
+        <attr name="isLarge" format="boolean"/>
+        <attr name="leftIconTint" format="color|reference"/>
+        <attr name="rightIconTint" format="color|reference"/>
+        <attr name="isPassword" format="boolean"/>
+        <attr name="textAlignLeft" format="boolean"/>
+    </declare-styleable>
+</resources>

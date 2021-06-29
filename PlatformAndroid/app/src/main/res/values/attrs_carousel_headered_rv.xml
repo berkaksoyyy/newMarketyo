@@ -1,0 +1,13 @@
+<resources>
+
+    <declare-styleable name="CarouselHeaderedRV" >
+        <attr name="title"/>
+        <attr name="viewAllText" format="string" />
+        <attr name="retryTitle" format="string" />
+        <attr name="retryTitleTextColor" format="color" />
+        <attr name="titleColor"/>
+        <attr name="titleBold"/>
+        <attr name="viewAllTextColor" format="color" />
+        <attr name="isLoading"/>
+    </declare-styleable>
+</resources>

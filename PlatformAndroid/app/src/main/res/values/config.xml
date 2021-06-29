@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="ws_base_url" translatable="false">http://api.external.marketyo.net/api/v1/</string>-->
+    <string name="ws_base_url" translatable="false">https://external-api.marketyo.net/api/v1/</string>
+    <!--<string name="ws_base_url" translatable="false">http://external3-dev.eba-6ypa2ezi.eu-central-1.elasticbeanstalk.com/api/v1/</string>-->
+    <!--<string name="ws_base_url" translatable="false">https://external3-dev.marketyo.net/api/v1/</string>-->
+    <string name="company_page_url" translatable="false">http://www.marketyo.com.tr</string>
+
+    <integer name="show_ads_every_x_product">2</integer>
+    <bool name="is_bottom_nav_bar_theme">false</bool>
+    <string translatable="false" name="default_currency">₺</string>
+
+    <bool name="use_horizontal_category_slider_theme">false</bool>
+
+    <string name="applink_scheme" translatable="false">marketyo</string>
+    <string name="applink_host" translatable="false">www.marketyo.com</string>
+
+    <string name="app_font_name" translatable="false">app_font</string>
+    <string name="app_font_bold_with_extension" translatable="false">app_font_bold.ttf</string>
+    <string name="app_font_with_extension" translatable="false">app_font.ttf</string>
+
+    <string name="app_new_font_bold" translatable="false">quicksandb.ttf</string>
+    <string name="app_new_font_regular" translatable="false">quicksandregular.ttf</string>
+    <string name="app_new_font_medium" translatable="false">quicksandmedium.ttf</string>
+
+    <color name="dialog_okBtn_color">@color/colorAccent</color>
+
+<!--    <string translatable="false" name="facebook_app_id">2556295664608410</string>-->
+<!--    <string translatable="false" name="fb_login_protocol_scheme">fb2556295664608410</string>-->
+
+    <dimen name="def_elevation">2dp</dimen>
+    <dimen name="def_radius">5dp</dimen>
+</resources>

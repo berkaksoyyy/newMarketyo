@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MBSpringTextView">
+        <attr name="fontName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="MBBadgeTextView">
+        <attr name="hideOnZero" format="boolean"/>
+        <attr name="shakeOnChangeNumber" format="boolean"/>
+        <attr name="visibilityGoneOnHide" format="boolean"/>
+        <attr name="initNumber" format="integer"/>
+        <attr name="maxTextLength" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckoutBottomView">
+        <attr name="price" format="string" />
+        <attr name="nextPage" format="string" />
+        <attr name="productTotal" format="string" />
+        <attr name="bagFee" format="string" />
+        <attr name="serviceFee" format="string" />
+        <attr name="serviceFeeWithoutDiscount" format="string" />
+        <attr name="campaignDiscount" format="string" />
+        <attr name="couponDiscount" format="string" />
+        <attr name="_totalFinalDiscount" format="string" />
+        <attr name="firstOpen" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TitleColorAttr">
+        <attr name="title" format="string" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleLineCount" format="integer" />
+        <attr name="titleBold" format="boolean" />
+        <attr name="isLoading" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ImagedTextView" parent="TitleColorAttr">
+        <attr name="title" />
+        <attr name="placeholder" format="string" />
+        <attr name="placeholderBold" format="boolean" />
+        <attr name="titleColor" />
+        <attr name="titleBold" />
+        <attr name="titleSize"/>
+        <attr name="titleLineCount"/>
+        <attr name="placeholderSize" format="dimension"/>
+        <attr name="android:gravity"/>
+        <attr name="icon" format="reference"/>
+        <attr name="iconTint" format="color"/>
+        <attr name="showArrow" format="boolean"/>
+        <attr name="arrowTint" format="color"/>
+        <!--        <attr name="leftDrawable" format="reference"/>-->
+        <attr name="showPlaceHolderOnEmpty" format="boolean" />
+        <attr name="placeholderTextColor" format="color" />
+        <attr name="isLoading" />
+    </declare-styleable>
+</resources>

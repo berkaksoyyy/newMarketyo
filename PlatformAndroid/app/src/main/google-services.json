@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "744068621294",
+    "firebase_url": "https://marketyo-jet.firebaseio.com",
+    "project_id": "marketyo-jet",
+    "storage_bucket": "marketyo-jet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744068621294:android:5f44baa2c53bf6cda564ff",
+        "android_client_info": {
+          "package_name": "com.marketyo.platform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744068621294-rie4r4k9esa06q8bnm6guhv6b7gr9js7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeeFlGXteGaLUrFuGwzEwkTNrHr-FOovE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744068621294-rie4r4k9esa06q8bnm6guhv6b7gr9js7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "744068621294-if0mgbsr0kibaa0jqvs3hmp2at7pdvg2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.marketyo.jet",
+                "app_store_id": "1311612291"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

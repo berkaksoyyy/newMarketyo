@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2bc265</color>
+    <color name="colorPrimaryDark">#1d954a</color>
+    <color name="colorAccent">#EB287C</color>
+
+    <color name="light_grey">#f8f8f8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_bg_blue">#01bfc1</color>
+    <color name="black">#000000</color>
+    <color name="gray">#b3b3b3</color>
+    <color name="light_grey_2">#e6e6e6</color>
+    <color name="light_gray">#A9A9A9</color>
+    <color name="gray_transparent">#F2f0f0f0</color>
+    <color name="green">#1d954a</color>
+    <color name="btn_green">#2bc265</color>
+    <color name="marketyo_green">#2bc265</color>
+    <color name="marketyo_green_transparent">#cc2bc265</color>
+    <color name="purple">#D81B60</color>
+    <color name="dark_grey">#a3a3a3</color>
+
+    <color name="txt_grey">#8e8e8e</color>
+
+    <color name="backgroundColor">#F9F9F9</color>
+
+    <color name="shadow_light">#2a000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="transparent_black">#9a000000</color>
+
+    <color name="cart_background">#f1eff2</color>
+    <color name="checkout_background">#fdfbfe</color>
+
+    <color name="btn_blue">#102539</color>
+
+    <color name="yellow">#ffa045</color>
+    <color name="darkYellow">#ec7b00</color>
+
+
+
+    <color name="statusBarColorGreen">#FF219a49</color>
+    <color name="statusBarColorLanding">#00da5d</color>
+    <color name="statusBarColorBottomMainActivity">#00be52</color>
+
+    <color name="statusBarOnBoardingSecondScreen">#ededeb</color>
+
+    <color name="brickColor">#D9522A</color>
+    <!--<color name="lineProgress">#B44F06</color>-->
+    <color name="lineProgress">#ffa045</color>
+    <color name="textColor">#464646</color>
+    <color name="greyLineColor">#D1D1D1</color>
+    <color name="bottom_menu_color">#008937</color>
+    <color name="logoutRed">#B90101</color>
+    <color name="order_tracking_background">#707070</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#1d954a</color>
+    <color name="viewfinder_border">#1d954a</color>
+
+</resources>

@@ -1,0 +1,630 @@
+<resources>
+    <string name="app_name">Marketyo</string>
+    <string name="zohoAppKey">NhzwyXSA4Mlt4nKco%2FePsniHg2X1zx84nODVQiTjkUGUmsICPJC9BlZToStXawQB</string>
+    <string name="zohoAccessKey">Kx7RIysGdsj0C6mXLBVFzvIZWRB4BydUEeP3mw99Ni4bE80Ik7hqbK9vQeMpjVd1WY3I3evXrb5oaoKj2zNz0R40qyxaaGSfbCt7X2RDcF0lgP0ae5kbnBvVflYrvzTKbPHEK4uZbYS4bA0if1BMhAmG66kesVWy</string>
+
+    <string name="ok">Tamam</string>
+
+    <string name="dialog_need_internet_to_work">Internet Bağlantısı Yok!</string>
+    <string name="dialog_need_internet_to_work_message">Lütfen internete bağlanıp yeniden deneyin.</string>
+
+    <string name="go_to_settings">Ayarlara Git</string>
+    <string name="try_again">Tekrar deneyin</string>
+
+    <string name="cancel">İptal</string>
+
+    <string name="login_or_register">Giriş/Kayıt</string>
+    <string name="dialog_need_to_login_title">Giriş yapmalısınız</string>
+    <string name="dialog_need_to_login_message">Uygulamanın tüm özelliklerinden faydalanabilmek için lütfen giriş yapın.</string>
+
+    <string name="easy">Kolay</string>
+    <string name="medium">Orta</string>
+    <string name="hard">Zor</string>
+
+    <string name="formatted_price_adet">1 Adet / %1$s %2$.2f</string>
+    <string name="formatted_price_kilo">1 Kg / %1$s %2$.2f</string>
+
+    <string name="formatted_price">%2$.2f %1$s</string>
+    <string name="formatted_price_no_floating" translatable="false">%1$.0f %2$s</string>
+    <string name="error">Bir hata ile karşılaşıldı</string>
+
+    <string name="error_message_phone">Geçerli bir telefon numarası girin.</string>
+    <string name="error_message_name">Geçerli bir isim girin.</string>
+    <string name="error_message_lastname">Geçerli bir soyisim girin.</string>
+    <string name="error_message_password">Şifreniz yanlış.</string>
+    <string name="error_message_password_short">Şifre çok kısa.</string>
+    <string name="error_message_password_empty">Şifre boş olamaz.</string>
+    <string name="error_confirm_password">Şifreler eşleşmiyor.</string>
+
+    <string name="login_successfully">Giriş yapıldı.</string>
+    <string name="credentials_error">Yanlış kullanıcı adı ya da şifre</string>
+
+    <string name="formatted_weight">%1$s Kg</string>
+    <string name="formatted_quantity">%1$s Adet</string>
+
+    <string name="formatted_order_date">%1$s</string>
+    <string name="formatted_order_id">Sipariş ID\'si: %1$s</string>
+
+    <string name="formatted_weight_1line">%1$s Kg</string>
+    <string name="formatted_quantity_1line">%1$s Adet</string>
+
+    <string name="validating_secure_code">Bankanız tarafından gönderilen SMS doğrulama kodunu giriniz</string>
+    <string name="enter_pin">Pin\'i girin</string>
+    <string name="send">Gönder</string>
+
+    <string name="enter_sms_code">SMS ile gelen kodu girin</string>
+    <string name="validate">Onayı</string>
+    <string name="resend">Tekrar</string>
+    <string name="confirmation">Onayı</string>
+    <string name="enter_again">Tekrar giriniz</string>
+
+    <string name="done">Tamamlandı</string>
+    <string name="message_was_sent">Yeni mesaj Gönderildi</string>
+    <string name="resend_sms">Mesajı tekrar almak için \'Tekrar Göndere\' basınız</string>
+
+    <string name="year">Yıl</string>
+    <string name="month">Ay</string>
+
+    <string name="accept_master_pass">MasterPass Kullanıcı Sözleşmesi\'ni kabul ediyorum</string>
+    <string name="done_success">İşlem başarıyla tamamlanmıştır</string>
+    <string name="dialog_max_amount_text">Seçmiş olduğunuz ürün için maksimum alış miktarı: %1$.2f.</string>
+    <string name="logout">Çıkış yap</string>
+    <string name="settings">Ayarlar</string>
+    <string name="change">Değiştir</string>
+    <string name="change_password">Şifre Değiştir</string>
+    <string name="hint_changepassword_current">Mevcut Şifren</string>
+    <string name="hint_changepassword_new_password">Yeni Şifren</string>
+    <string name="hint_changepassword_new_password_again">Tekrar Yeni Şifren</string>
+    <string name="new_password_cannot_be_same_old_one">Yeni şifreniz eskisiyle aynı olamaz</string>
+    <string name="password_changed_successfully">Şifre değiştirildi.</string>
+    <string name="devam_et">Devam</string>
+    <string name="update">Güncelle</string>
+    <string name="related_products">İlginizi Çekebilecek Ürünler</string>
+    <string name="categories">Kategoriler</string>
+
+
+    <string name="acheived_free_delivery">Ücretsiz Teslimat!</string>
+    <string name="formatted_needed_to_acheive_order_min_limit">Sipariş verebilmeniz için %1$s gerekmektedir</string>
+    <string name="formatted_needed_to_acheive_free_deliver">Ücretsiz teslimat için %1$s %2$s gerekli!</string>
+    <string name="no_address_found">Adres Bilginiz Bulunmamakta</string>
+    <string name="no_address_desc">Aşağıdaki “Adresini Seç” butonuna basarak yeni bir adres kaydı oluşturabilirsiniz.</string>
+    <string name="no_order_found">Siparişiniz Bulunmamaktadır.</string>
+    <string name="no_order_desc">İlk Siparişinizi verdikten sonra, bu ekranda önceki  siparişlerinizi görüntüleyebilirsiniz.</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="forgot_my_password">Şifremi Unuttum</string>
+    <string name="phone_code">SMS Doğrulama kodu bu telefon numarasına gönderilecektir :\n%1$s</string>
+    <string name="phone_verification">SMS Doğrulama</string>
+    <string name="send_code">Kod Yolla</string>
+    <string name="update_phone">Numarayı Güncelle</string>
+    <string name="invalid_phone">Bu telefon numarası başka bir hesap tarafından kullanılmakta.</string>
+    <string name="enter_phone_number">Numaranızı girin.</string>
+    <string name="fields_cannot_be_empty">Bu alan boş bırakılamaz</string>
+    <string name="please_enter_code">Marketyo doğrulama kodu cep telefonuna gönderildi</string>
+    <string name="please_enter_code2">Aşağıdaki alana gelen kodu yaz lütfen</string>
+    <string name="please_resend_code">Mesajı almadın mı?</string>
+    <string name="please_resend_code2"><u>Tekrar Gönder</u></string>
+    <string name="time_remaining">Kalan Süre</string>
+
+    <string name="address_info">Adres Bilgileri</string>
+    <string name="address_info2">Sipariş vermek istediğiniz adres bilgilerini seçiniz</string>
+    <string name="or">veya</string>
+
+    <string name="phone_verified">Telefon numaranız onaylandı!</string>
+    <string name="invalid_code">Güvenlik kodunun süresi dolmuş veya yanlış.</string>
+    <string name="remaining_time">"Kalan süre: "</string>
+
+    <string name="title_delete_masterpass_card">Kart Sil</string>
+    <string name="message_delete_masterpass_card">kartını silmek istediğinizden emin misiniz?</string>
+
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="hint_phone">Telefon Numaran</string>
+    <string name="hint_password">Şifren</string>
+    <string name="hint_password_confirm">Tekrar Şifren</string>
+    <string name="phone_cod">+90</string>
+    <string name="login">Giriş Yap</string>
+    <string name="register_hint">Aşağıdaki formu kullanarak yeni kullanıcı\n kaydı oluşturabilirsiniz.</string>
+    <string name="policy_first">Kullanım Koşulları</string>
+    <string name="policy_second">Gizlilik Koşulları</string>
+    <string name="policy_all">%1$s\'ni ve %2$s\'ni okudum ve onaylıyorum.</string>
+    <string name="should_accept_user_policy">Lütfen sözleşmeyi okuyup onaylayınız.</string>
+    <string name="hint_name">Adın</string>
+    <string name="hint_surname">Soyadın</string>
+    <string name="discounted_products">İndirimli Ürünler</string>
+    <string name="address_deleted">Adres silindi.</string>
+    <string name="dialog_remove_product_message">Ürünü sepetinizden çıkarmak istiyor musunuz?</string>
+    <string name="dialog_remove_proudct_title">Ürün çıkarılıyor</string>
+    <string name="product_error">Ürünle ilgili bir sorun oluştu.</string>
+    <string name="continue_without_register">Üye olmadan devam et</string>
+    <string name="onboarding_msg_left">Marketyo ile market alışverişin kapına geliyor. Tanıdığın, bildiğin marketler tek bir uygulamada toplanıyor. Alışverişten artan vakit sana kalıyor.</string>
+    <string name="onboarding_msg_right">Kayıtlı kullanıcımızsan şimdi giriş yap veya kayıt ol. Bulunduğun il, ilçe ve mahalleye hizmet veren marketlerden birini seç, alışverişin kapına gelsin</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="login_register">HESABIN YOK MU ? HEMEN KAYIT OL</string>
+    <string name="select_shop">ALIŞVERİŞE BAŞLA</string>
+    <string name="selectshop_timeslot_msg">Teslimat zamanlarını gör</string>
+    <string name="select_this_shop">ALIŞVERİŞE BAŞLA</string>
+    <string name="select_region">ŞEHRİNİ SEÇ</string>
+    <string name="select_region_msg">Siparişinizi vermek istediğiniz adres bilgilerinizi seçiniz</string>
+    <string name="select_city">Şehrini Seç</string>
+    <string name="select_location">Konumundan Bul</string>
+    <string name="select_county">İlçeni Seç</string>
+    <string name="select_neighborhood">Mahalleni Seç</string>
+    <string name="item_select_city">İL SEÇİNİZ</string>
+    <string name="item_select_county">İLÇE SEÇİNİZ</string>
+    <string name="item_select_neighborhood">MAHALLE SEÇİNİZ</string>
+    <string name="products_of_the_week">En Çok Satanlar</string>
+    <string name="shopping">Alışveriş</string>
+    <string name="add_to_cart">Sepete ekle</string>
+    <string name="search_product">Ürün Arama</string>
+    <string name="campaigns">Kampanyalar</string>
+    <string name="menu_campaigns">Fırsatlar</string>
+    <string name="search_product_not_found">Aradığınız ürün bulunamadı</string>
+    <string name="newest_campaigns">En yeni kampanyalar</string>
+    <string name="my_orders">Siparişlerim</string>
+    <string name="my_coupons">Kuponlarım</string>
+    <string name="my_oppurtunity">Fırsatlarım</string>
+    <string name="my_addresses">Adreslerim</string>
+    <string name="change_my_personal_info">Kişisel Bilgilerim</string>
+    <string name="change_password_myaccount">Şifre Değiştir</string>
+    <string name="my_cart">Sepetim</string>
+    <string name="products">Sepetindeki Ürünler</string>
+    <string name="gains_from_coupons">Kupon İndirimi</string>
+    <string name="total_final_discount">Toplam Kazancınız</string>
+    <string name="gains_from_campaigns">Kampanya İndirimi</string>
+    <string name="service_fee">Teslimat Tutarı</string>
+    <string name="service_fee_2">Hizmet Bedeli</string>
+    <string name="bag_fee">Poşet Tutarı</string>
+    <string name="total_product_amount">Ürün Tutarı</string>
+    <string name="add_product_note">Ürün Notu Ekle</string>
+    <string name="address_and_delivery"><![CDATA[Adres ve Gönderim ]]></string>
+    <string name="total">Toplam Tutar: </string>
+    <string name="delivery_options">Teslimat Zamanı</string>
+    <string name="delivery_options1">Teslimat Seçenekleri</string>
+    <string name="delivery_address">Teslimat adresi</string>
+    <string name="invoice_address">Fatura adresi</string>
+    <string name="payment_options">Ödeme Bilgileri</string>
+    <string name="select_delivery_date_and_time">Ne Zaman Teslim Edelim?</string>
+    <string name="select_delivery_date_and_time_info">Konumunuza uygun zaman aralıkları aşağıda belirtilmiştir. İstediğiniz zaman aralığını seçerek işleme devam edebilirsiniz.</string>
+    <string name="add_note">Notunuzu Ekleyin</string>
+    <string name="add_note_2">Not Ekle</string>
+    <string name="tap_to_write">Yazmak İçin Dokunun</string>
+    <string name="note_hint">Notunuz varsa, lütfen yazınız</string>
+    <string name="order_confirmed">Siparişin oluşturuldu!</string>
+    <string name="total_invoice_amount">Toplam fatura tutarı</string>
+    <string name="delivery_date">Teslimat tarihi</string>
+    <string name="delivery_time">Teslimat Saat Aralıkları</string>
+    <string name="delivery_time_2">Teslimat Gün ve Saati Seçin</string>
+    <string name="go_back_to_main">Ana sayfaya dön</string>
+    <string name="save">Kaydet</string>
+    <string name="add_credit_card">Kredi kartı ekle</string>
+    <string name="card_title">Kart Takma Adı</string>
+    <string name="card_no">Kart No</string>
+    <string name="select_mp_card">Ödeme Yapmak İstediğiniz Kredi Kartını Seçiniz</string>
+    <string name="add_new_mp_card">Yeni Kart Eklemek İçin Tıklayınız</string>
+    <string name="link_mp_cards">Masterpass\'te Kayıtlı Kartlarınızı Kullanmak İçin Tıklayınız</string>
+    <string name="delete">Sil</string>
+    <string name="welcome">Hoş geldiniz</string>
+    <string name="select">Seç</string>
+    <string name="login_msg">Kayıt olduğun telefon numarası ve şifre ile giriş yapabilirsin</string>
+    <string name="support">Destek</string>
+    <string name="contact_us">İletişim</string>
+    <string name="rate_app">Uygulamamızı Değerlendirin</string>
+    <string name="help">Yardım</string>
+    <string name="customer_support">Canlı Yardım</string>
+    <string name="company_info">Şirket Bilgileri</string>
+    <string name="title">Unvanı</string>
+    <string name="ssn">Ticari Sicil Numarası</string>
+    <string name="head_general">Genel Müdürlük</string>
+    <string name="phone">Telefon</string>
+    <string name="mersis">Mersis Numarası</string>
+    <string name="email_address">Kayıtlı Elektronik Posta Adresi</string>
+    <string name="contactus_call_center_title"> Çağrı Merkezi ( %1$s Ara) </string>
+    <string name="select_order">Bildirmek istediğiniz siparişi seçiniz</string>
+    <string name="order_no">Sipariş Numarası:</string>
+    <string name="order_date">Sipariş Tarihi:</string>
+    <string name="total_price">Toplam Fiyat</string>
+    <string name="no_order_history">Henüz bir sipariş vermediniz</string>
+    <string name="updated_successfully">Mesajınız başarıyla gönderildi</string>
+    <string name="add_msg">Mesajınızı Ekleyin</string>
+    <string name="choose_support_message_type">Destek mesajı türünü seçiniz</string>
+    <string name="send_mail">Bize Mesaj Bırakın</string>
+    <string name="communication">İLETİŞİM</string>
+    <string name="faq">Sıkça Sorulan Sorular</string>
+    <string name="kvkk">KİŞİSEL VERİLERİN KORUNMASI FORMU</string>
+    <string name="contract">ÜYELİK SÖZLEŞMESİ</string>
+    <string name="kvkk_msg">KVKK Aydınlatma Metni</string>
+    <string name="remotely_sale_licenses">Mesafeli Satış Sözleşmesi</string>
+    <string name="version">Versiyon</string>
+
+    <string name="personalDataUsage">Kişisel Veri Saklama, Aydınlatma ve İmha Politikası</string>
+    <string name="clarification_policy">Aydınlatma Metni</string>
+    <string name="consentText">Açık Rıza Metni</string>
+    <string name="personal_consent_all">%1$s ve %2$s sözleşmelerini okudum ve kabul ediyorum.</string>
+
+    <string name="complete_checkout">%1$s ve %2$s sözleşmelerini okudum ve kabul ediyorum.</string>
+
+    <string name="personal_information">Ön Bilgilendirme Formu</string>
+    <string name="no_product_desc">Bu Kategoriye Ait Ürün Bulunamadı</string>
+    <string name="search">Ara</string>
+    <string name="menu_search">Ara</string>
+    <string name="cart">Sepet</string>
+    <string name="menu_cart">Sepet</string>
+    <string name="my_account">Profil</string>
+    <string name="menu_my_account">Profil</string>
+    <string name="menu">Ana Sayfa</string>
+    <string name="out_menu">Marketler</string>
+    <string name="my_products">Ürünlerim</string>
+    <string name="authentication">SMS Onay</string>
+    <string name="add_new_address">Yeni adres ekle</string>
+    <string name="delivery_address_empty">Teslimat adresiniz bulunamadı</string>
+    <string name="delivery_address_empty_exp">\'Yeni adres ekle\' butonunu kullanarak teslimat adresinizi ekleyebilirsiniz</string>
+    <string name="same_address_txt">Fatura adresi teslimat adresi ile aynı olsun</string>
+    <string name="address">Adres</string>
+    <string name="come_and_take_exp">Size en yakın %1$s teslimat noktalarını görebilmek için adres seçimi yapmalısınız</string>
+    <string name="delivery_hours">%1$s SAATLERİ</string>
+    <string name="warning">Uyarı</string>
+    <string name="are_you_sure_you_want_to_log_out">Çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="delete_address">Adresinizi silmek istediğinizden emin misiniz ?</string>
+    <string name="delete_address_titel">Adresi Sil</string>
+    <string name="add_address">Yeni Adres Ekle</string>
+    <string name="personal">Bireysel</string>
+    <string name="company">Kurumsal</string>
+    <string name="cancel_order">sipariş iptali</string>
+    <string name="delivery_day">gönderim saati</string>
+    <string name="get_direction">Yol Tarifi Al</string>
+    <string name="payment">ödeme</string>
+    <string name="delivery_type">Teslimat Türü</string>
+    <string name="order_note">Sipariş Notun</string>
+    <string name="product_total">Ürün Toplamı</string>
+    <string name="campaign_discount">Kampanya İndirimi</string>
+    <string name="delivery_fee">Teslimat Ücreti</string>
+    <string name="order_details">Sipariş Detayları</string>
+    <string name="enter_birthdate">Doğum Tarihin</string>
+    <string name="products_you_might_want">İlginizi Çekebilecek Ürünler</string>
+    <string name="you_must_be_older_than">Hesap oluşturabilmek için %1$d yaşından büyük olmanız gerekmektedir</string>
+
+    <string name="error_message_email">E-mail hatalı</string>
+    <string name="enter_email">E-mail Adresinizi Yazınız</string>
+    <string name="personal_info_exp">Aşağıdaki formu kullanarak kişisel bilgilerinizi düzenleyebilirsiniz.</string>
+    <string name="back">Geri</string>
+    <string name="title_activity_barcode">Barkod Okuyucu</string>
+
+    <string name="continue_msg">Devam Et</string>
+    <string name="please_enter_region_info">Lütfen Bölge Bilgilerini Eksiksiz Seçiniz</string>
+    <string name="select_county_warn">İlçe Seçiniz</string>
+    <string name="select_city_warn">Şehir Seçiniz</string>
+    <string name="teslimat_saatleri">teslimat zamanları</string>
+
+    <string name="direction">YOL TARİFİ</string>
+    <string name="direction_msg">mağazası için yol tarifi almaya yönlendiriliyorsunuz.</string>
+    <string name="cancel_this_order">Sipariş İptali</string>
+    <string name="repeat_this_order">Siparişi Tekrarla</string>
+
+    <string name="cancel_order_msg">Bu siparişi iptal etmek istediğinize emin misiniz ?</string>
+    <string name="masterpass_msg">Giriş yapmış olduğunuz cep telefonu ile Masterpass\'e kayıtlı kartlarınız var. Bu kartları Marketyo uygulamasında kullanmak istiyor musunuz?</string>
+    <string name="product_detail">Ürün Detayı</string>
+    <string name="cvv">CVV/CVC2</string>
+    <string name="card_holder">Kart Sahibinin Adı Soyadı</string>
+    <string name="card_number">Kart Numarası</string>
+    <string name="card_threed">Ödemeleriniz 3D Secure ile Güvende</string>
+
+    <string name="payment_fail">Ödeme Başarısız</string>
+
+    <string name="spotlight_select_region">Size en iyi hizmeti verebilmemiz için mahallenizi seçmelisiniz</string>
+    <string name="spotlight_select_shop1">Seçtiğiniz bölge için mağazalar listelendi</string>
+    <string name="spotlight_select_shop2">Sağa kaydırarak marketin diğer bilgilerini görebilirsiniz</string>
+    <string name="spotlight_select_shop3">Teslimat sürelerini gör butonunu kullanarak teslimat zamanlarını kontrol edebilirsiniz</string>
+    <string name="spotlight_main1">Seçtiğiniz marketi buradan görebilirsiniz</string>
+    <string name="spotlight_main2">Değiştir butonunu kullanarak başka bir market seçebilirsiniz</string>
+    <string name="spotlight_main3">Teslimat saatlerini görmek için buraya tıklayınız</string>
+    <string name="spotlight_main4">Sepetinizdeki ürünleri görüntülemek için buraya tıklayınız</string>
+    <string name="spotlight_cart1">Ücretsiz teslimat durumunuzu buradan takip edebilirsiniz</string>
+    <string name="spotlight_cart2">Not butonunu kullanarak ürünlere not ekleyebilirsiniz</string>
+    <string name="spotlight_cart3">Silme butonunu kullanarak istediğiniz ürünü sepetten çıkarabilirsiniz</string>
+    <string name="spotlight_cart4">Yukarı çekerek sepet detaylarını görebilirsiniz</string>
+    <string name="spotlight_cart5">Fırsatlarım bölümünden, kupon ya da kampanya seçmeyi unutmayın</string>
+    <string name="spotlight_address1">Size en iyi hizmeti verebilmemiz için teslimat istediğiniz bölge ile ilgili detayları seçiniz</string>
+    <string name="spotlight_order1">Siparişinizin referans numarasını burada görebilirsiniz</string>
+    <string name="spotlight_order2">Sipariş detay bilgilerini buradan görüntüleyebilirsiniz</string>
+    <string name="congrats">tebrikler</string>
+    <string name="dialog_force_update_message">Yeni özelliklerden yararlanabilmeniz için lütfen uygulamayı güncelleyin.</string>
+    <string name="no_product">Sepetinizde ürün bulunmamaktadır</string>
+    <string name="no_shop_exp">Yukarıdaki değiştir butonuna tıklayıp farklı bir mahalle seçebilirsin..</string>
+    <string name="no_shop_ttl">Şimdilik bulunduğunuz bölgeye hizmet veren bir market bulunmamaktadır</string>
+    <string name="address_name">Adresinin Adı</string>
+    <string name="name_surname">Adı-Soyadı</string>
+    <string name="identity_no">T.C. Kimlik Numarası</string>
+    <string name="extra_info">Ek Bilgi*</string>
+    <string name="company_name">Firma Adı</string>
+    <string name="tax_id_no">Vergi Kimlik Numarası</string>
+    <string name="tax_admin">Vergi Dairesi</string>
+    <string name="timeslot_bs_msg">Seçtiğiniz market için teslimata uygun zaman aralıklarını görebilirsiniz.</string>
+    <string name="timeslot_bs_msg_change_title">Ne Zaman Teslim Edelim?</string>
+    <string name="timeslot_bs_msg_change_desc">Konumuna uygun zaman aralıkları aşağıda belirtilmiştir.</string>
+    <string name="delivery_points">Teslimat Noktaları</string>
+    <string name="fill_necessary">Lütfen tüm gerekli alanları doldurunuz.</string>
+    <string name="enter_id_no">Lütfen geçerli bir tc kimlik numarası giriniz.</string>
+    <string name="logging_out">UYGULAMADAN ÇIKIYORSUNUZ</string>
+    <string name="logging_out_msg">Uygulamadan çıkmak istediğinize emin misiniz ?</string>
+    <string name="forgot_password_msg">Cep telefonu numaranızı doğrulayarak şifrenizi güncelleyebilirsiniz.</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="delivery_zone">Teslimat Bölgesi</string>
+    <string name="policy_terms_of_use">Kullanım Koşulları Sözleşmesi</string>
+    <string name="privacy_agreement">Gizlilik Sözleşmesi</string>
+    <string name="full">DOLU</string>
+    <string name="delivery_time_order">Teslimat Zamanı: </string>
+    <string name="payment_type">Ödeme Yöntemi</string>
+    <string name="please_select_timeslot">Lütfen teslimat zamanı seçiniz.</string>
+    <string name="please_select_address">lütfen adres seçiniz</string>
+    <string name="please_select_delivery">Lütfen gönderim yöntemi seçiniz</string>
+    <string name="agree_policies">Siparişinizi tamamlamak için lütfen sözleşmeleri okuyup onaylayınız.</string>
+    <string name="invalid_card">Geçersiz kart</string>
+    <string name="cannot_pay_with_debit">Debit kartlar ile ödeme yapamazsınız</string>
+    <string name="confirm_order">Siparişi onayla</string>
+    <string name="shop_not_found">Mağaza Bulunamadı</string>
+    <string name="shop_not_found_msg">İçinde bulunduğunuz mağaza, seçtiğiniz bölgeye hizmet vermemektedir.</string>
+    <string name="clear">sıfırla</string>
+    <string name="ordering">sıralama</string>
+    <string name="brand">marka</string>
+    <string name="other">diğer</string>
+    <string name="edit">Düzenle</string>
+
+    <string name="options">SEÇENEKLER</string>
+
+    <string name="cart_campaigns">Sepet Kampanyaları</string>
+    <string name="catch_opportunity">tebrikler, fırsatı yakaladınız!</string>
+
+    <string name="details">detaylar</string>
+    <string name="campaign_not_applied">kampanya uygulanmadı</string>
+    <string name="catch_camp">fırsatı yakala</string>
+
+    <string name="please_wait">Lütfen Bekleyin...</string>
+    <string name="min_order_msg">Sepet tutarınız minimum sipariş tutarının altındadır.</string>
+
+    <string name="start_shopping">Alışverişe Başla</string>
+    <string name="please_enter_coupon_code">Lütfen bir kupon kodu giriniz.</string>
+    <string name="coupon_exp">Kuponlar sepetinize sepet sayfasından uygulanabilmektedir.</string>
+    <string name="add">Ekle</string>
+    <string name="enter_coupon_code">Kupon Kodunu Giriniz</string>
+    <string name="other_brand">Diğer</string>
+    <string name="add_new_adress_notplus">Yeni adres ekle</string>
+
+    <string name="info">Bilgi</string>
+    <string name="payment_methods">Ödeme Seçenekleri</string>
+    <string name="min_cart_total">Minimum Sepet Tutarı</string>
+    <string name="free_delivery">Ücretsiz Teslimat</string>
+    <string name="update_personal_info">Kişisel Bilgilerimi Güncelle</string>
+    <string name="same_password_msg">Parolalarınız eşleşmiyor</string>
+    <string name="cannot_find_desired_product">Aradığınız ürünü bulamadınız mı ?</string>
+    <string name="request_product">Bu kategoride görmek istediğiniz ürünü bize iletin</string>
+    <string name="request_thanks">Teşekkür ederiz. İstekleriniz bizim için önemli.</string>
+    <string name="specify_product">Lütfen bir ürün belirtiniz</string>
+    <string name="request_product_ttl">ürün öner</string>
+    <string name="request_msg_top">Görmek istediğiniz ürünü aşağıdaki alana yazarak bize yardımcı olabilirsiniz.</string>
+    <string name="request_msg_bot">Lütfen ürün ismini markası ile birlikte belirtiniz</string>
+    <string name="call_for_alternative_ttl">Alternatif Ürün için beni arayın.</string>
+    <string name="call_for_alternative_msg">Ürün temin edilemiyorsa alternatif ürün için market tarafından aranarak bilgilendirilirsiniz.</string>
+    <string name="select_alternative_ttl">alternatif ürünü market seçin.</string>
+    <string name="select_alternative_msg">Ürün temin edilemiyorsa alternatif ürün siparişinize market tarafından eklenir.</string>
+    <string name="dont_want_alternative_ttl">alternatif ürün istemiyorum.</string>
+    <string name="dont_want_alternative_msg">Ürün temin edilemiyorsa alternatif ürün eklenmez. Ürün tutarı alışveriş tutarından düşürülür.</string>
+    <string name="select_alternative">alternatif ürün seçimi</string>
+    <string name="search_coupons">Kuponlara göz at</string>
+    <string name="choose_oppurtunity">Fırsat Seçin</string>
+
+    <string name="name">İsim</string>
+    <string name="surname">Soyisim</string>
+    <string name="alternative">Alternatif Ürün</string>
+    <string name="shop">Mağaza:</string>
+    <string name="add_coupon_err">Kupon ekleyebilmek için mağaza seçimi yapılmış olması gerekmektedir. Lütfen mağaza seçimi yaptıktan sonra tekrar deneyin.</string>
+    <string name="feedback_msg">Marketyo uygulamasında kayıtlı e-posta adresinize en kısa sürede dönüş sağlanacaktır.</string>
+    <string name="suggest_region">Bölge Öner</string>
+    <string name="suggest_region_exp">Hizmet almak istediğiniz bölgeyi belirterek bize yardımcı olabilirsiniz</string>
+    <string name="suggest_region_btn">Bölge önermek istiyorum</string>
+    <string name="sec">sn</string>
+    <string name="maintenance_msg">Sizler için stoklarımızı yeniliyoruz, 15 dakika içinde tekrar dener misiniz?</string>
+    <string name="maintenance_msg_sec">Sistemimizde şu an altyapı çalışması mevcuttur. 15 dk içinde tekrar dener misiniz?</string>
+    <string name="maintenance_ttl">Sistemimiz Bakımda</string>
+    <string name="close">Kapat</string>
+    <string name="phone_not_valid">Lütfen geçerli bir telefon numarası girin</string>
+    <string name="enter_rating">Lütfen bir değerlendirme seçiniz</string>
+    <string name="thanks">Teşekkürler</string>
+    <string name="your_review_has_been_taken">Değerlendirmeniz alındı</string>
+    <string name="order_rate">Siparişi Değerlendir</string>
+    <string name="order_rating">Sipariş Değerlendirmesi</string>
+
+    <string name="kullanim_kosulları_tum"> %1$s ve %2$s\'nı okudum ve onaylıyorum </string>
+    <string name="kullanim_kosullari">Kullanım Koşulları</string>
+    <string name="gizlilik_kosullari">Gizlilik Politikası</string>
+    <string name="kisiselVeriler">Kişisel Verilerimin Korunması Hakkındaki Formu</string>
+    <string name="kisiselVerilerTum">%1$s okudum ve onaylıyorum.</string>
+
+    <string name="etk_text">Kampanya, promosyon, tanıtım, reklam ve bilgilendirme amaçlı tarafımla iletişime geçilmesini onaylıyorum, rızam vardır.</string>
+    <string name="kvkk_text">KVKK Metni</string>
+    <string name="contract_dialog_txt">Değişen yönetmelik gereği sözleşmelerimizi ve iletişim izin politikamızı yeniledik. Tercihinize göre onaylamanız gerekmektedir.</string>
+
+    <string name="usage_and_privacy">GENEL KULLANIM KOŞULLARI</string>
+    <string name="privacy">GİZLİLİK SÖZLEŞMESİ</string>
+    <string name="notif_prefs_txt">İletişim Tercihlerim</string>
+
+    <string name="ignore_multiple_spesific_symbol">Birden fazla "@" sembolü girilemez</string>
+    <string name="ignore_first_spesific_at_symbol">İlk karakter "@" sembolü olamaz</string>
+    <string name="ignore_first_spesific_dot_symbol">İlk karakter "." sembolü olamaz</string>
+    <string name="ignore_consecutive_dot_symbol">İki tane "." sembolü yanyana gelemez</string>
+    <string name="ignore_dot_and_at_symbol">".@" sembolleri yanyana gelemez</string>
+    <string name="ignore_at_and_dot_symbol">"@." sembolleri yanyana gelemez</string>
+    <string name="ignore_five_char_less">Emailiniz en az 5 harften oluşmalıdır</string>
+    <string name="invalid_email">Geçersiz email adresi yazdınız</string>
+    <string name="ignore_email_invalid_symbol">Email alanında ingilizce karakter ve "@, ., _ , -" özel karakterleri haricinde bir karakter kullanamazsınız.</string>
+
+    <string name="ignore_first_spesific_symbol">İlk karakter "Ğ ya da ğ" karakteri olamaz</string>
+    <string name="ignore_first_empty_symbol">İlk karakter boşluk olamaz</string>
+    <string name="ignore_consecutive_symbol">2 adetten fazla aynı karakter kullanılamaz</string>
+    <string name="ignore_consecutive_vowel_symbol">2 adetten fazla ünlü harf yanyana kullanılamaz</string>
+    <string name="ignore_consecutive_consonant_symbol">3 adetten fazla ünsüz harf yanyana kullanılamaz</string>
+    <string name="ignore_name_invalid_symbol">İsim ya da soyisim alanında ingilizce karakterler ile türkçe karakterler haricinde bir karakter kullanılamaz</string>
+
+    <string name="ignore_phone_number_without_start_five">Telefon numarası 5 ile başlamalıdır</string>
+
+    <string name="name_count">İsim alanı en az 2 karakterden oluşmalıdır</string>
+    <string name="surname_count">Soyisim alanı en az 2 karakterden oluşmalıdır</string>
+
+    <string name="clarification_text_info">%1$s içeriği hakkında bilgi almak istiyorum</string>
+    <string name="membership_agreement_info">%1$s\' ni okudum ve kabul ediyorum</string>
+    <string name="consent_form_info">Üyelik ilişkisi kapsamında temin ettiğim kişisel verilerimin %1$s kapsamında profilleme/pazarlama faaliyetleri doğrultusunda işlenmesine ve ilgili metinde belirtilen diğer amaçlar doğrultusunda yurtdışındaki serverlara aktarılmasına izin veriyorum.</string>
+    <string name="campaign_text_info">Tarafıma kampanya, promosyon, avantaj, yeni ürün/hizmetlerin tanıtımı ve pazarlanması amacıyla ticari elektronik ileti gönderilmesine ve verilerimin bu amaçla %1$s kapsamında işlenmesine izin veriyorum.</string>
+
+    <string name="membership_agreement">Üyelik sözleşmesi</string>
+    <string name="consent_form">Aydınlatma Metni</string>
+    <string name="campaign_text">Reklam, Promosyon, Tanıtım, Kampanya Bilgilendirme Metni</string>
+
+    <string name="kvkk_clarification_text">KVKK Aydınlatma Metni</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="consent_text">Açık Rıza Formu</string>
+    <string name="membership_agreement_text">Üyelik Sözleşmesi</string>
+
+
+    <string name="cancel_order_btn">Siparişi İptal Et</string>
+    <string name="want_to_add_product">Ürün Eklemek İstiyorum</string>
+    <string name="change_payment">Ödeme Yöntemi Değiştireceğim</string>
+    <string name="change_timeslot">Teslimat Zamanı Değiştireceğim</string>
+    <string name="couldnt_use_coupon">Kampanya/Kupon Kullanamadım</string>
+    <string name="wont_be_at_address">Adreste Bulunamayacağım</string>
+    <string name="other_reason">Diğer</string>
+
+    <string name="next_reason">İleri</string>
+    <string name="cancel_order_reason">Sipariş İptali</string>
+    <string name="order_cancelation">Sipariş iptali</string>
+    <string name="order_cancelation_txt">İptal nedeniniz nedir?</string>
+    <string name="add_note_cr">Notunuzu Ekleyiniz</string>
+
+    <string name="order_was_canceled">Siparişiniz iptal edildi</string>
+
+    <string name="ignore_last_char_as_dot">Email adresinin son karakteri "." olamaz</string>
+
+    <string name="livechat.messages.offline">Değerli müşterimiz çalışma saatlerimiz 09:00 ile 20:00 arasındadır. Şu an mesai saatleri dışında olduğumuzdan size hizmet veremiyoruz</string>
+    <!-- New Design Text -->
+    <string name="market_know">Bildiğin Market</string>
+    <string name="market_know_desc">Semtindeki tanıdığın bildiğin marketleri senin için tek bir uygulamada topladık.</string>
+    <string name="market_door">Marketyo ile Kapında</string>
+    <string name="market_door_desc">Üstelik Türkiye’deki 100’den fazla marketin kampanya gücü ile.</string>
+
+    <string name="dont_have_account">Hesabın yok mu?</string>
+    <string name="register_now"><u>Hemen Kayıt Ol</u></string>
+    <string name="without_sign_in">Üye Olmadan Giriş Yap</string>
+
+    <string name="your_address">Adresin: </string>
+    <string name="choosed_market">Seçtiğin Market: </string>
+    <string name="view_delivery_time">Teslimat Zamanlarını Gör</string>
+    <string name="basket_sum">Sepet Toplamı</string>
+    <string name="special4you">Sana özel</string>
+    <string name="saved_address">Kayıtlı Adreslerim</string>
+    <string name="select_address">Adresini Seç</string>
+    <string name="delete_address_info">Aşağıdaki Adres Silinecek</string>
+    <string name="give_up">Vazgeç</string>
+    <string name="address_explain">Adres*</string>
+    <string name="eposta">E-posta</string>
+    <string name="sms">SMS</string>
+    <string name="calling_phone">Telefon Görüşmesi</string>
+
+    <string name="sum_product_total">Sipariş Toplam Tutarı</string>
+    <string name="total_gains">Kazancınız</string>
+    <string name="product_discount">Ürün İndirimi</string>
+    <string name="end_of_cart_discount">Sepet Sonu İndirimi</string>
+    <string name="delivery_discount">Teslimat İndirimi</string>
+    <string name="go_cart">Sepete Git</string>
+    <string name="these_may_interest_you">Bunlar ilgini çekebilir</string>
+    <string name="delivery_details">Teslimat Detayları</string>
+    <string name="select_delivery_type_address">Teslimat Tipi ve Adresini Seç</string>
+    <string name="complete_order">Siparişi Tamamla</string>
+    <string name="choose_delivery_address">Teslimat Adresini Seç</string>
+    <string name="select_address_info">Siparişinin gelmesini istediğin adresini seç</string>
+    <string name="choose_delivery_type_info">Teslimat Şekli</string>
+    <string name="expiration_date">Son Kullanma Tarihi</string>
+    <string name="order_created">Sipariş Oluşturuldu</string>
+    <string name="received_products">Aldığım Ürünler</string>
+    <string name="payment_details">Ödeme Detayları</string>
+    <string name="payment_type_2">Ödeme Yöntemi</string>
+    <string name="sub_total">Ara Toplam</string>
+    <string name="main_total">Toplam Tutar</string>
+    <string name="main_purchased_total">Toplam Tutar</string>
+    <string name="coupon_discount">Kupon İndirimi</string>
+    <string name="order_tracking">Siparişini özenle hazırlıyoruz. En kısa sürede adresinde olacağız.</string>
+    <string name="coupon_waiting">Kuponun Seni Bekliyor</string>
+    <string name="order_not_evaluated">Değerlendirilmemiş bir siparişin var</string>
+    <string name="rate_your_shopping_experience">Alışveriş Deneyimini Puanla</string>
+    <string name="evaluate">Değerlendir</string>
+    <string name="order_limit">Minimum Tutar: </string>
+
+    <string name="opportunities">Fırsatlar</string>
+    <string name="add_new_address_camel_case">Yeni Adres Ekle</string>
+
+    <string name="announcements">Duyurular</string>
+
+    <string name="you_might_like">Bunları Beğenebilirsin</string>
+
+    <string name="search_product_or_brand">Aradığınız Ürün veya Markayı yazınız</string>
+    <string name="personal_info_title">Kişisel Bilgilerim</string>
+
+    <string name="order_no_exp">Sipariş No</string>
+    <string name="date_and_time">Saat ve Tarih</string>
+
+    <string name="products_bought">Aldığım Ürünler</string>
+    <string name="select_shop_title_info">Sana En Yakın Marketlerimiz</string>
+    <string name="cart_title">Sepet Detayın</string>
+    <string name="choose_payment_type_info">Siparişinizi Nasıl Ödemek İstediğinizi Seçin</string>
+    <string name="most_searched_word">En Çok Arananlar</string>
+    <string name="qr_code_info">Barkod ile Arama</string>
+
+    <string name="order_no_exp_w_colon">Sipariş No:</string>
+    <string name="today">Bugün</string>
+    <string name="week">Bu Hafta</string>
+    <string name="month_1">Bu Ay</string>
+
+    <string name="spotlight_select_region_1">Size en iyi hizmeti verebilmemiz için teslimat istediğiniz bölge ile ilgili detayları seçiniz.</string>
+    <string name="spotlight_select_shop_1">Seçtiğiniz bölge için mağazalar listelendi</string>
+    <string name="spotlight_select_shop_2">Buraya tıklayarak marketin bilgilerine erişebilirsiniz</string>
+    <string name="spotlight_select_shop_3">Teslimat zamanını gör butonunu kullanarak teslimat zamanlarını kontrol edebilirsiniz.</string>
+    
+    <string name="spotlight_main_fragment_1">Buraya tıklayarak seçtiğiniz marketi değiştirebilirsiniz.</string>
+
+    <string name="spotlight_cart_fragment_1">Ücretsiz teslimat durumunuzu buradan takip edebilirsiniz.</string>
+    <string name="spotlight_cart_fragment_2">Fırsatlarım bölümünden kupon ya da kampanya seçmeyi unutmayın</string>
+    <string name="spotlight_cart_fragment_3">Not ekle butonunu kullanarak ürünlere not ekleyebilirsiniz</string>
+    <string name="spotlight_cart_fragment_4">Sola kaydırarak istediğiniz ürünü sepetten çıkarabilirsiniz</string>
+    <string name="spotlight_cart_fragment_5">Yukarı çekerek sepet detaylarını görebilirsiniz</string>
+
+    <string name="spotlight_order_details">Sipariş numaranızı buradan görebilirsiniz</string>
+
+    <string name="spotlight_oppurtunuity">Buradan tüm fırsatlara göz atabilirsiniz</string>
+    <string name="spotlight_oppurtunuity_2">Buradan tüm marketlerde ürün arayabilirsiniz</string>
+    <string name="select_region_now">Hemen Bölgeni Seç</string>
+    <string name="see_all_shops_at_region">Bölgendeki Tüm Marketleri Gör</string>
+    <string name="regions_contain_product">Bölgenizde %1$s bulunan marketler</string>
+
+    <string name="product_price_mc">Fiyat: </string>
+    <string name="order_rating_high_msg">Deneyimlerinizin daha iyi olması için önerilerinizi paylaşırsanız çok mutlu oluruz</string>
+    <string name="order_rating_low_msg">Yaşadığınız olumsuz deneyim için üzgünüz. Sebebini bizimle paylaşırsanız seviniriz</string>
+    <string name="order_rating_static_question">Sipariş Deneyiminizi Değerlendirin</string>
+    <string name="your_opinion">Görüşünüz</string>
+
+    <string name="rate_us_google_msg">Bizi Google Play Store\'da değerlendirmek ister misiniz?</string>
+    <string name="you_didnt_rate">Siparişini Değerlendirmedin!</string>
+    <string name="my_rate">Sipariş Değerlendirmem</string>
+    <string name="your_order_exp">Sipariş Deneyiminiz</string>
+    <string name="no_product_at_region_mc">Üzgünüz, seçtiğiniz bölgede şu an bu ürün bulunmamaktadır.</string>
+    <string name="no_promotion_at_region_mc">Üzgünüz, seçtiğiniz bölgede şu an bu promosyon bulunmamaktadır.</string>
+    <string name="campaign_email_msg">Kampanyalar ile ilgili email alabilirim</string>
+    <string name="campaign_sms_msg">Kampanyalar ile ilgili sms alabilirim</string>
+    <string name="campaign_call_msg">Kampanyalar ile ilgili arama alabilirim</string>
+
+    <string name="repeat_order_success">Başarılı</string>
+    <string name="repeat_order_go_cart">Sepete Git</string>
+    <string name="repeat_formatted_added_item">Stokta olan ürünler sepetinize eklenmiştir.</string>
+    <string name="repeat_order_change_location">Yer Değiştir</string>
+    <string name="repeat_formatted_change_location">Bu market seçtiğiniz bölgede hizmet vermemektedir. Bölgenizi değiştirmek ister misiniz?</string>
+    <string name="repeat_formatted_change_shop">%1$s market için siparişinizi tekrar etmek istiyor musunuz?</string>
+    <string name="repeat_order_same_shop_warning_desc">Siparişinizi tekrar etmek istiyor musunuz?</string>
+    <string name="clear_cart_message">Sepetinizdeki tüm ürünler kaldırılacaktır. Sepetinizi boşaltmak istediğinizden emin misiniz?</string>
+
+</resources>
