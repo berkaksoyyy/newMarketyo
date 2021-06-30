@@ -23,7 +23,6 @@ import android.app.NotificationManager
 import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.multidex.BuildConfig
 import androidx.multidex.MultiDexApplication
 import com.adjust.sdk.Adjust
@@ -32,6 +31,7 @@ import com.commencis.appconnect.sdk.AppConnect
 import com.commencis.appconnect.sdk.iamessaging.AppConnectInAppMessagingConfig
 import com.commencis.appconnect.sdk.notifications.AppConnectNotificationConfig
 import com.commencis.appconnect.sdk.util.LogLevel
+import com.facebook.appevents.AppEventsLogger
 import com.google.android.gms.analytics.Tracker
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.crashlytics.FirebaseCrashlytics
@@ -68,6 +68,7 @@ class App : MultiDexApplication() {
     private val appConnectLiveSDK = "e84cecb7-8acf-11ea-973f-7910b472239c"
     private val channel_id = "de59e940-b25f-47a5-9a60-71927a569f30"
     private val channel_name = "Marketyo"
+    private var mAppEventLogger: AppEventsLogger? = null
     var remoteConfig: FirebaseRemoteConfig? = null
         private set
 
@@ -149,6 +150,7 @@ class App : MultiDexApplication() {
 //            )
 //        }
         firebaseAnalytics = FirebaseAnalytics.getInstance(this)
+        mAppEventLogger = AppEventsLogger.newLogger(this)
         createNotificationChannel()
         val appConnectNotificationConfig = AppConnectNotificationConfig()
         appConnectNotificationConfig.defaultNotificationChannelId = channel_id
@@ -273,6 +275,14 @@ class App : MultiDexApplication() {
         } catch (e: Exception) {
             e.printStackTrace()
         }
+    }
+
+    fun facebookAnalytics(): AppEventsLogger? {
+        return App.instance?.getAppEventsLogger()
+    }
+
+    fun getAppEventsLogger(): AppEventsLogger? {
+        return mAppEventLogger
     }
 
     enum class TrackerName {

@@ -26,8 +26,8 @@
 
     <color name="dialog_okBtn_color">@color/colorAccent</color>
 
-<!--    <string translatable="false" name="facebook_app_id">2556295664608410</string>-->
-<!--    <string translatable="false" name="fb_login_protocol_scheme">fb2556295664608410</string>-->
+    <string translatable="false" name="facebook_app_id">2556295664608410</string>
+    <string translatable="false" name="fb_login_protocol_scheme">fb2556295664608410</string>
 
     <dimen name="def_elevation">2dp</dimen>
     <dimen name="def_radius">5dp</dimen>

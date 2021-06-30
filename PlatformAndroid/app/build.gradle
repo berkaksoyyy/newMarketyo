@@ -7,16 +7,13 @@ buildscript {
     }
 }
 
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-    id 'kotlin-kapt'
-    id 'dagger.hilt.android.plugin'
-    id 'com.google.gms.google-services'
-    id 'com.google.firebase.crashlytics'
-}
-
 apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'dagger.hilt.android.plugin'
 
 
 repositories {
@@ -158,10 +155,20 @@ dependencies {
     implementation 'com.commencis:appconnect-android-sdk:2.1.2'
 
     //Facebook
-//    implementation 'com.facebook.android:facebook-android-sdk:9.1.1'
-//    implementation 'com.facebook.rebound:rebound:0.3.8'
+    implementation 'com.facebook.android:facebook-android-sdk:9.1.1'
+    implementation 'com.facebook.rebound:rebound:0.3.8'
 
     //Google
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    implementation "com.google.android.gms:play-services-auth:19.0.0"
+    implementation "com.google.android.gms:play-services-auth-api-phone:17.5.1"
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.0.1'
+    implementation "com.google.android.gms:play-services-gcm:17.0.0"
+    implementation 'com.google.android.gms:play-services-tagmanager:17.0.0'
+    implementation "com.google.android.gms:play-services-location:18.0.0"
     implementation 'com.google.android.gms:play-services-analytics:17.0.0'
 
     //Firebase
