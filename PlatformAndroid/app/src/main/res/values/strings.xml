@@ -626,5 +626,7 @@
     <string name="repeat_formatted_change_shop">Do you want to repeat your order for %1$s market?</string>
     <string name="repeat_order_same_shop_warning_desc">Do you want to repeat your order?</string>
     <string name="clear_cart_message">All items in your cart will be removed. Are you sure you want to empty your cart?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

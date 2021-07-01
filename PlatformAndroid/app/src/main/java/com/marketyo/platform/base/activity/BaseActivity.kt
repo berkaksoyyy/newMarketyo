@@ -44,6 +44,7 @@ abstract class BaseActivity<VB : ViewBinding>(open val bindingFactory: (LayoutIn
         initReq()
         initVMListener()
         initChangeUI()
+        initData()
 
     }
 
@@ -87,13 +88,20 @@ abstract class BaseActivity<VB : ViewBinding>(open val bindingFactory: (LayoutIn
         // TO DO CHANGE AFTER..!
     }
 
-    abstract fun initChangeFont()
+    @CallSuper
+    protected open fun initChangeFont(){}
 
-    abstract fun initReq()
+    @CallSuper
+    protected open fun initReq(){}
 
-    abstract fun initVMListener()
+    @CallSuper
+    protected open fun initVMListener(){}
 
-    abstract fun initChangeUI()
+    @CallSuper
+    protected open fun initChangeUI(){}
+
+    @CallSuper
+    protected open fun initData(){}
 
 
     fun prepareWithBaseVM(baseVm: BaseVM) {

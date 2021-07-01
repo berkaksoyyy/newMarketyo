@@ -78,7 +78,7 @@ class App : MultiDexApplication() {
         instance = this
         Constants.prepareFieldsFromXML(this)
         DateUtils.userLocale = Locale(Constants.CURRENT_LANGUAGE)
-        initHilt()
+        initWSUrl()
 //        initEventBus()
         init()
 //        appObserver = ForegroundBackgroundListener()
@@ -103,13 +103,11 @@ class App : MultiDexApplication() {
 //        EventBusUtils.INSTANCE.installIndex()
 //    }
 
-    private fun initHilt() {
+    private fun initWSUrl() {
         var customLink: String = EasySharedPref.customWebserviceLink ?: ""
         if (customLink.isEmpty()) {
             customLink = WS_BASE_URL
         }
-
-        //TODO: Add Hilt implementation
     }
 
     private fun init() {
