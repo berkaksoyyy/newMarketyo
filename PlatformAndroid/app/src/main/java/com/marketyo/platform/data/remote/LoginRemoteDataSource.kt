@@ -8,6 +8,7 @@ import com.marketyo.platform.model.Result
 import com.marketyo.platform.model.reponses.RestResult
 import com.marketyo.platform.model.request.LoginRequest
 import com.marketyo.platform.utils.errorUtils.ErrorUtils
+import timber.log.Timber
 
 /**
  * fetches data from remote source
@@ -24,7 +25,7 @@ class LoginRemoteDataSource @Inject constructor(private val retrofit: Retrofit) 
 
     private suspend fun <T> getResponse(request: suspend () -> Response<T>, defaultErrorMessage: String): Result<T> {
         return try {
-            println("I'm working in thread ${Thread.currentThread().name}")
+            Timber.e("WORKING_THREAD  -- ${Thread.currentThread().name}")
             val result = request.invoke()
             if (result.isSuccessful) {
                 return Result.success(result.body())
@@ -33,6 +34,7 @@ class LoginRemoteDataSource @Inject constructor(private val retrofit: Retrofit) 
                 Result.error(errorResponse?.status_message ?: defaultErrorMessage, errorResponse)
             }
         } catch (e: Throwable) {
+            Timber.e(e)
             Result.error("Unknown Error", null)
         }
     }

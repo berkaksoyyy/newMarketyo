@@ -11,7 +11,7 @@ interface MarketyoCoreWS {
 
     // region ACCOUNT
     @POST("Account/Login")
-    fun login(@Body loginRequest: LoginRequest): Response<RestResult<String>>
+    suspend fun login(@Body loginRequest: LoginRequest): Response<RestResult<String>>
 //
 //    @GET("Account")
 //    fun getUserInfo(): Observable<RestResult<UserInfo>>

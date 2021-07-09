@@ -48,6 +48,7 @@ import com.onesignal.OSNotificationOpenedResult
 import com.onesignal.OSNotificationReceivedEvent
 import com.onesignal.OneSignal
 import com.zoho.salesiqembed.ZohoSalesIQ
+import dagger.hilt.android.HiltAndroidApp
 import io.github.inflationx.calligraphy3.CalligraphyConfig
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor
 import io.github.inflationx.viewpump.ViewPump
@@ -58,6 +59,7 @@ import timber.log.Timber.DebugTree
 import java.util.*
 import java.util.concurrent.TimeUnit
 
+@HiltAndroidApp
 class App : MultiDexApplication() {
 //    private var mNetComponent: NetComponent? = null
     var firebaseAnalytics: FirebaseAnalytics? = null

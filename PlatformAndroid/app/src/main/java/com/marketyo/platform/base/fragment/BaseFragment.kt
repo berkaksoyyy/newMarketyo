@@ -17,17 +17,19 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
 import com.marketyo.platform.base.activity.BaseActivity
+import dagger.hilt.android.AndroidEntryPoint
 
 /**
  * Createdby MBH on 20/01/2017.
  */
 
-abstract class BaseFragment<VB : ViewBinding>(val bindingFactory: (LayoutInflater, ViewGroup?, Boolean) -> VB) :
+@AndroidEntryPoint
+abstract class BaseFragment :
     Fragment() {
     private var mHandler: Handler? = null
 
-    private var _binding: VB? = null
-    val binding get() = _binding!!
+//    private var _binding: VB? = null
+//    val binding get() = _binding!!
 
     @CallSuper
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,16 +68,16 @@ abstract class BaseFragment<VB : ViewBinding>(val bindingFactory: (LayoutInflate
     // @LayoutRes
     // protected abstract fun layoutID(): Int
 
-    @CallSuper
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        _binding = bindingFactory.invoke(inflater, container, false)
-        return binding.root
-        /*return inflater.inflate(layoutID(), container, false)*/
-    }
+//    @CallSuper
+//    override fun onCreateView(
+//        inflater: LayoutInflater,
+//        container: ViewGroup?,
+//        savedInstanceState: Bundle?
+//    ): View? {
+////        _binding = bindingFactory.invoke(inflater, container, false)
+////        return binding.root
+//        return inflater.inflate(layoutID(), container, false)
+//    }
 
     override fun onViewCreated(
         view: View,
@@ -129,10 +131,10 @@ abstract class BaseFragment<VB : ViewBinding>(val bindingFactory: (LayoutInflate
             requireActivity() as AppCompatActivity?
         } else null
 
-    protected val baseActivity: BaseActivity<VB>?
-        protected get() = if (activity is BaseActivity<*>) {
-            requireActivity() as BaseActivity<VB>?
-        } else null
+//    protected val baseActivity: BaseActivity<VB>?
+//        protected get() = if (activity is BaseActivity<*>) {
+//            requireActivity() as BaseActivity<VB>?
+//        } else null
 
     fun getBoolById(@BoolRes boolResId: Int, defaultValue: Boolean): Boolean {
         return try {
@@ -146,11 +148,11 @@ abstract class BaseFragment<VB : ViewBinding>(val bindingFactory: (LayoutInflate
         return ContextCompat.getColor(requireContext(), colorId)
     }
 
-    @CallSuper
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
+//    @CallSuper
+//    override fun onDestroyView() {
+//        super.onDestroyView()
+//        _binding = null
+//    }
 
     protected fun shortToast(text: String?) {
         toast(text, Toast.LENGTH_SHORT)

@@ -39,7 +39,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".base.activity.BaseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
